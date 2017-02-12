@@ -5,4 +5,5 @@ return array(
 	'admin' 	=> 'admin/dashboard',
 	'logout' => 'login/logout',
 	'login/recover/:token' => 'login/recover/$1',
+	'mypage/body-shop' => 'mypage/bodyshop',
 );

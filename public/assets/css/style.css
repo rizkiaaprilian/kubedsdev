@@ -41,3 +41,64 @@ footer {
 .txt-red {
 	color: red;
 }
+.oem-repair .inner-block{
+    width:85%;
+    margin: auto
+}
+.oem-repair h1{
+    font-size: 4rem
+}
+.oem-repair p{
+    margin-top: 15px;
+}
+.oem-repair .no-bullet span{
+    min-width: 120px;
+    display: inline-block
+}
+.oem-repair .no-bullet{
+    margin-top: 25px;
+}
+.oem-repair .no-bullet li{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.oem-repair .block{
+    border: 1px solid #000;
+    min-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.oem-repair .block p{
+    margin-top: 0;
+}
+.oem-description {
+    position: relative;
+    border-bottom: 1px solid #000;
+}
+.oem-description .page{
+    position: absolute;
+    bottom: 1rem;
+    right: 0
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    .oem-description .page{
+        position: static
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
