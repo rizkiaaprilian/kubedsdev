@@ -6,4 +6,7 @@ return array(
 	'logout' => 'login/logout',
 	'login/recover/:token' => 'login/recover/$1',
 	'mypage/body-shop' => 'mypage/bodyshop',
+	'mypage/body-shop/sops' => 'mypage/bodyshop_sop',
+	'mypage/body-shop/products' => 'mypage/bodyshop_approved_products',
+	
 );

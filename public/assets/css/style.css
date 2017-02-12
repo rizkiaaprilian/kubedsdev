@@ -83,6 +83,32 @@ footer {
     bottom: 1rem;
     right: 0
 }
+.border{
+    border: 1px solid #000;
+}
+.body-shop-sop-header {
+    background: #cacaca;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+.body-shop-sop-header h3{
+    color: #fff;
+    background: #000;
+    padding: 10px;
+}
+.body-shop-sop-header .body{
+    padding: 10px;
+}
+.body-shop-sop-body .border{
+    min-height: 90px;
+}
+.body-shop-sop-body .border p{
+    padding: 3px 5px;
+}
+.body-shop-sop-body .step{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
