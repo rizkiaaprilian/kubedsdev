@@ -32,4 +32,44 @@
 		e.preventDefault();
 		$('#content').load(baseUrl + 'bodyshop/sops/bumper_repair_cosmetic.html');
 	});
+	$('#structural').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/sops/bumper_repair_structural.html');
+	});
+	$('#bodyfiller').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/sops/filler_application.html');
+	});
+	$('#door_skin_installation').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/sops/door_skin_installation.html');
+	});
+	$('#strsw').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/sops/bond_procedure.html');
+	});
+	$('#door_skin_seam_sealing').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/sops/door_skin_seam_sealing.html');
+	});
+	$('#truck_bed_seam_sealing').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/sops/truck_bed_seam_sealing.html');
+	});
+	$('#roof_ditch').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/sops/roof_ditch.html');
+	});
+	$('#sprayable_seam_sealers').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/sops/sprayable_seam_sealers.html');
+	});
+	$('#wheel_house').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/sops/wheel_house.html');
+	});
+	$('#sanding_system').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/sops/sanding_system.html');
+	});
 </script>

@@ -9,11 +9,6 @@ class Sops extends \Controller_Rest {
 		// Not from the website exit out
 	}
 	
-	public function action_index(){
-		echo 'a';
-		exit();
-	}
-	
 	public function get_bumper_repair_cosmetic(){
 		return $this->response(\View::forge('body_shop_sops/bumper_repair_cosmetic'));
 	}
@@ -21,7 +16,7 @@ class Sops extends \Controller_Rest {
 		return $this->response(\View::forge('body_shop_sops/bumper_repair_structural'));
 	}
 	public function get_filler_application(){
-		return $this->response(\View::forge('body_shop_sops/filler_application'));
+		return $this->response(\View::forge('body_shop_sops/body_filler_application'));
 	}
 	public function get_door_skin_installation(){
 		return $this->response(\View::forge('body_shop_sops/door_skin_installation'));
