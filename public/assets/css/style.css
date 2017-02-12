@@ -1,0 +1,43 @@
+header {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid #000;
+}
+footer {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-top: 2px solid #000;
+}
+#main_content {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.log-in-form {
+  border: 1px solid #cacaca;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+.modal-header h4 {
+	padding-bottom: 2rem;
+}
+
+.clickable tbody tr {
+	cursor: pointer;
+}
+.clickable tbody tr:hover {
+	background-color: #F0F0F0;
+}
+.menu {
+  border-top: 1px solid #cacaca;
+  border-bottom: 1px solid #cacaca;
+}
+.menu a:hover {
+	color: #000000;
+}
+#content {
+	padding-top: 1rem;
+}
+.txt-red {
+	color: red;
+}
