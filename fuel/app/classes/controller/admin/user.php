@@ -24,4 +24,8 @@ class User extends \Controller_Rest {
 		}
 		return $this->response(array('status' => 'FAIL', 'msg' => $user->validation()->show_errors()));
 	}
+	
+	public function post_reset() {
+		return $this->response(\Model\User::forge()->forgot_password(\Input::post('data')));
+	}
 }

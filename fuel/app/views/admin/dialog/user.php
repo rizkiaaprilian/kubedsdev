@@ -37,9 +37,14 @@
 			</div>
 		</div>
 		<div class="row column" id="btn">
-			<input type="hidden" name="data[id]" id="id" value="<?=$data['id']?>">
-			<button type="button" class="button" id="update" name="update">Save</button>
-			<button type="button" class="button" id="btn_close" name="btn_close" data-close>Cancel</button>
+			<div class="float-left">
+				<input type="hidden" name="data[id]" id="id" value="<?=$data['id']?>">
+				<button type="button" class="button" id="update" name="update">Save</button>
+				<button type="button" class="button" id="btn_close" name="btn_close" data-close>Cancel</button>
+			</div>
+			<div class="float-right">
+				<button type="button" class="button warning" id="reset" name="reset">Reset Password</button>
+			</div>
 		</div>
 	</form>
 </div>
@@ -48,6 +53,17 @@
 		$('#update').on('click', function() {
 			$('.callout.alert').remove();
 			$.post(baseUrl + 'admin/user/save.json', $('#user_form').serialize(), function(json) {
+				if (json.status == 'OK') {
+					//location.reload();
+				} else {
+					$('#btn').before('<div class="callout alert">' + json.msg + '</div>');
+				}
+			});
+		});
+		
+		$('#reset').on('click', function(){
+			$('.callout.alert').remove();
+			$.post(baseUrl + 'admin/user/reset.json', $('#user_form').serialize(), function(json){
 				if (json.status == 'OK') {
 					//location.reload();
 				} else {

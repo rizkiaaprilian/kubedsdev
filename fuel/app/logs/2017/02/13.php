@@ -44,3 +44,4 @@ ERROR - 2017-02-13 04:34:27 --> Warning - Creating default object from empty val
 ERROR - 2017-02-13 04:35:08 --> Notice - Undefined variable: meta_title in C:\xampp7\htdocs\kubeds\fuel\app\views\base_page.php on line 6
 ERROR - 2017-02-13 04:35:24 --> Notice - Undefined variable: styles in C:\xampp7\htdocs\kubeds\fuel\app\views\base_page.php on line 9
 ERROR - 2017-02-13 04:35:57 --> Notice - Undefined property: Controller\Password::$auto_render in C:\xampp7\htdocs\kubeds\fuel\app\classes\controller\password.php on line 10
+ERROR - 2017-02-13 05:35:03 --> Error - Call to a member function to_array() on integer in C:\xampp7\htdocs\kubeds\fuel\app\classes\controller\test.php on line 16
