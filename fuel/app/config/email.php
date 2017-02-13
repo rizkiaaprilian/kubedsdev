@@ -48,7 +48,7 @@ return array(
 		/**
 		 * Mail driver (mail, smtp, sendmail, noop)
 		 */
-		'driver' => 'mail',
+		'driver' => 'smtp',
 
 		/**
 		 * Whether to send as html, set to null for autodetection.
@@ -118,11 +118,11 @@ return array(
 		 * SMTP settings
 		 */
 		'smtp' => array(
-			'host'     => '',
-			'port'     => 21,
-			'username' => '',
-			'password' => '',
-			'timeout'  => 5,
+			'host'     => 'smtp.mailgun.org',
+			'port'     => 587,
+			'username' => 'postmaster@sandbox17e8cd06e5844044a89fefdcecf56585.mailgun.org',
+			'password' => 'EGuF9Pz3Da9pUwZW',
+			'timeout'  => 60,
 			'starttls' => false,
 		),
 
