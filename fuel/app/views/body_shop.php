@@ -20,6 +20,20 @@
 	$('#content').load(baseUrl + 'bodyshop/oemrepair.html');
 	$('#oemrepair').on('click', function(e) {
 		e.preventDefault();
-		$('#content').load(baseUrl + 'bodyshop/oemrepair.html');
+		$.get(baseUrl + 'bodyshop/oemrepair.html', {page: 1}, function(html){
+			$('#content').html(html);
+		});
+	});
+	$('#content').on('click', '.next-page', function(e) {
+		e.preventDefault();
+		$.get(baseUrl + 'bodyshop/oemrepair.html', {page: 2}, function(html){
+			$('#content').html(html);
+		});
+	});
+	$('#content').on('click', '.prev-page',function(e) {
+		e.preventDefault();
+		$.get(baseUrl + 'bodyshop/oemrepair.html', {page: 1}, function(html){
+			$('#content').html(html);
+		});
 	});
 </script>

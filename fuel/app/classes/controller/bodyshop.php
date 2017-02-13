@@ -10,6 +10,10 @@ class Bodyshop extends \Controller_Rest {
 	}
 	
 	public function get_oemrepair(){
-		return $this->response(\View::forge('body_shop/oemrepair'));
+		$view = \View::forge('body_shop/oemrepair');
+		if (\Input::get('page') == 2) {
+			$view = \View::forge('body_shop/oemrepair_page_2');
+		}
+		return $this->response($view);
 	}
 }

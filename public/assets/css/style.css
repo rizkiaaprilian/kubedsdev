@@ -17,7 +17,10 @@ footer {
   padding: 1rem;
   border-radius: 3px;
 }
-
+[class^="fi-"]{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 .modal-header h4 {
 	padding-bottom: 2rem;
 }

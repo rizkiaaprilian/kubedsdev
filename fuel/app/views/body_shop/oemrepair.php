@@ -10,7 +10,7 @@
 				<li><span>MODELS:</span>ALL TOYOTA, LEXUS, and SCION</li>
 				<li><span>DATE:</span>JANUARY 2008</li>
 			</ul>
-			<div class="page">PAGE 1 OF 2</div>
+			<div class="page">PAGE 1 OF 2<a href="#" class="next-page"><i class="fi-arrow-right medium"></i></a></div>
 		</div>
 			
 

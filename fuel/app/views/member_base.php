@@ -6,6 +6,7 @@
 		<title><?=$meta_title;?></title>
 		<link href="/assets/css/app.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="/assets/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="/assets/foundation-icons/foundation-icons.css" rel="stylesheet" type="text/css" media="screen" />
 		<?= \Asset::css($styles, array(), null, false); ?>
 		<script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 		<script src="/assets/js/foundation.min.js" type="text/javascript"></script>
