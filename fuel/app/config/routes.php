@@ -8,5 +8,6 @@ return array(
 	'body-shop' => 'bodyshop/index',
 	'body-shop/sops' => 'bodyshop/bodyshop_sop',
 	'body-shop/products' => 'bodyshop/bodyshop_approved_products',
-	
+	'body-shop/msds' => 'bodyshop/msds',
+	'body-shop/support' => 'bodyshop/techsupport',
 );

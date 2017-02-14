@@ -140,7 +140,34 @@ footer {
 .body-shop-sop-body .yellow{
     background: #FFF600
 }
-
+.msds .item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: table;
+    width: 100%;
+}
+.msds .item .ct{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.msds .item .ct h6{
+    margin: 0;
+    background : #ccc;
+    padding: 5px;
+    border: 1px solid #000;
+}
+.msds .item .ct h6 a{
+    color: #000;
+    text-decoration: underline
+}
+.tech-support .item{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {

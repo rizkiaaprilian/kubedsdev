@@ -5,3 +5,6 @@ ERROR - 2017-02-14 06:43:23 --> Error - Could not find asset: 0001/body_shop/01-
 ERROR - 2017-02-14 06:44:41 --> Error - Could not find asset: body_shop/01-03.jpg.jpg in C:\xampp7\htdocs\kubeds\fuel\core\classes\asset\instance.php on line 413
 ERROR - 2017-02-14 06:44:43 --> Error - Could not find asset: body_shop/01-03.jpg.jpg in C:\xampp7\htdocs\kubeds\fuel\core\classes\asset\instance.php on line 413
 ERROR - 2017-02-14 07:26:19 --> Error - Could not find asset: body_shop/01-08.jpg in C:\xampp7\htdocs\kubeds\fuel\core\classes\asset\instance.php on line 413
+ERROR - 2017-02-14 12:11:35 --> Error - Could not find asset: tech_support/lord-qr.png in C:\xampp7\htdocs\kubeds\fuel\core\classes\asset\instance.php on line 413
+ERROR - 2017-02-14 12:11:53 --> Error - Could not find asset: tech_support/autochem.png in C:\xampp7\htdocs\kubeds\fuel\core\classes\asset\instance.php on line 413
+ERROR - 2017-02-14 12:12:12 --> Error - Could not find asset: tech_support/satausa.png in C:\xampp7\htdocs\kubeds\fuel\core\classes\asset\instance.php on line 413
