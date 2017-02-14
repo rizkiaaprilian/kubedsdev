@@ -8,26 +8,26 @@
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>BASF RM 900 - Pre-Cleano</li>
-						<li>Tork # 121202 - Wipers</li>
-						<li>Norton - 50 Grit, 2" Disc/3" Disc</li>
-						<li>Norton - 80 Grit, 8" E weight Grip-On Discs</li>
-						<li>Norton - 80 Grit, "E" Weight Filie Strips</li>
-						<li>Norton - 180 Grit, Grip-On Sheet Rolls</li>
+						<li><span>BASF RM 900</span>- Pre-Cleano</li>
+						<li><span>Tork # 121202</span>- Wipers</li>
+						<li><span>Norton</span>- 50 Grit, 2" Disc/3" Disc</li>
+						<li><span>Norton</span>- 80 Grit, 8" E weight Grip-On Discs</li>
+						<li><span>Norton</span>- 80 Grit, "E" Weight Filie Strips</li>
+						<li><span>Norton</span>- 180 Grit, Grip-On Sheet Rolls</li>
 					</ul>
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>Norton - 120 Grit, Grip-On Sheet Roll</li>
-						<li>Norton - 120 Grit, 6" Grip-On Discs</li>
-						<li>Norton - 180 Grit, 6" Grip-On Discs</li>
-						<li>FE # 492 - Quantum / Fast</li>
-						<li>FE # 492 - Quantum / Slow</li>
-						<li>FE # 120 - Rage Extreme</li>
+						<li><span>Norton</span>- 120 Grit, Grip-On Sheet Roll</li>
+						<li><span>Norton</span>- 120 Grit, 6" Grip-On Discs</li>
+						<li><span>Norton</span>- 180 Grit, 6" Grip-On Discs</li>
+						<li><span>FE # 492</span>- Quantum / Fast</li>
+						<li><span>FE # 492</span>- Quantum / Slow</li>
+						<li><span>FE # 120</span>- Rage Extreme</li>
 					</ul>
 				</div>
 				<div class="medium-2 column">
-					<div class="text-center">
+					<div class="text-center safety">
 						SAFETY<br>
 						P100 or N95 Dust Masks<br>
 						Disposable Gloves<br>
@@ -36,7 +36,7 @@
 				</div>
 			</div>
 			
-			<small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	
@@ -46,7 +46,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/03-01.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -58,7 +58,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean2.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/03-02.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -72,7 +72,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/blower.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/03-03.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -89,12 +89,15 @@
 					<div class="medium-2 column">Step #4</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/mix_upol7061.jpg')?>
+							<?=\Asset::img('body_shop/03-04.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
-							<p>Mix FE filler with hardener (ratio = 2%) as shown</p>
+							<div class="row column">
+								<p class="small-7 column">Mix FE filler with hardener <strong>(ratio = 2%) as shown</strong></p>
+								<?=\Asset::img('body_shop/03-04-01.jpg', array('class' => 'small-5 column'))?>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -102,7 +105,7 @@
 					<div class="medium-2 column">Step #5</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/plastic_fillter.jpg')?>
+							<?=\Asset::img('body_shop/03-05.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -116,7 +119,7 @@
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/watch.jpg')?>
+							<?=\Asset::img('body_shop/03-06.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -133,7 +136,7 @@
 					<div class="medium-2 column">Step #7</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/clean2.jpg')?>
+							<?=\Asset::img('body_shop/03-07.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -147,7 +150,7 @@
 					<div class="medium-2 column">Step #8</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/clean2.jpg')?>
+							<?=\Asset::img('body_shop/03-08.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -160,7 +163,7 @@
 					<div class="medium-2 column">Step #9</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/clean2.jpg')?>
+							<?=\Asset::img('body_shop/03-09.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -176,11 +179,11 @@
 					<div class="medium-2 column">Step #10</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/clean2.jpg')?>
+							<?=\Asset::img('body_shop/03-10.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
-						<div class="border">
+						<div class="border yellow">
 							<p>Finish sand filler/putty area with 180 grit 6" DA on a firm pad (Total repair area should now have 180 grit DA scratch)</p>
 							<p>Ensure 180 Grit scratch is on filler/putty prior to releasing to Prep</p>
 							<p>Check for pin holes</p>
@@ -191,14 +194,20 @@
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/info.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/03-info.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
-						<div class="border">
-							<p>Tech Support: www.u-pol.com</p>
-
-							QR Code:<br>
-							Body Prep Video
+						<div class="border qr">
+							<div class="row column tech-support">
+								Tech Support: <?=\Html::anchor('http://www.u-pol.com','www.u-pol.com');?><br>
+							</div>
+							<div class="row column">
+								<div class="float-left">
+									QR Code:<br>
+									Body Prep Video<br>
+								</div>
+								<?=\Asset::img('body_shop/03-qr.jpg', array('class' => 'float-right'));?>
+							</div>
 						</div>
 					</div>
 				</div>

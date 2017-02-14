@@ -8,19 +8,19 @@
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>BASF RM 900 - Pre-Cleano</li>
-						<li>TORK # 121212 - Wipers</li>
-						<li>Norton - Red Scuff Pad</li>
+						<li><span>BASF RM 900</span>- Pre-Cleano</li>
+						<li><span>TORK # 121212</span>- Wipers</li>
+						<li><span>Norton</span>- Red Scuff Pad</li>
 					</ul>
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>Fusor # 312 - Spray Gun</li>
-						<li>Fusor # 805HD - Black Sprayable Seam Sealer</li>
+						<li><span>Fusor # 312</span>- Spray Gun</li>
+						<li><span>Fusor # 805HD</span>- Black Sprayable Seam Sealer</li>
 					</ul>
 				</div>
 				<div class="medium-2 column">
-					<div class="text-center">
+					<div class="text-center safety">
 						SAFETY<br>
 						Safety Glasses<br>
 						Organic Vapors Respirator<br>
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 			
-			<small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	
@@ -39,7 +39,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/10-01.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -51,7 +51,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean2.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/10-02.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -63,7 +63,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/blower.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/10-03.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -80,9 +80,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/mix_upol7061.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/10-04.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -94,9 +92,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #5</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/plastic_fillter.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/10-05.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -108,9 +104,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/plastic_fillter.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/10-06.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -122,17 +116,24 @@
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/info.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/10-info.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
-						<div class="border">
-							<ul>
-								<li>HD Seam Sealer can also be used for Rubberized Undercoat applications</li>
-							</ul>
-							<p>Tech Support: www.lord.com</p>
-							1-800-234-3876<br>
-							QR Code:<br>
-							Sprayable Seam Sealer Video
+						<div class="border qr">
+							<div class="row column tech-support">
+								<ul>
+									<li>HD Seam Sealer can also be used for Rubberized Undercoat applications</li>
+								</ul>
+								Tech Support: <?=\Html::anchor('http://www.lord.com','www.lord.com');?><br>
+								1-800-234-3876
+							</div>
+							<div class="row column">
+								<div class="float-left">
+									QR Code:<br>
+									Sprayable Seam Sealer Video<br>
+								</div>
+								<?=\Asset::img('body_shop/10-qr.jpg', array('class' => 'float-right'));?>
+							</div>
 						</div>
 					</div>
 				</div>

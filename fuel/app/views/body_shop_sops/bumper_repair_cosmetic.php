@@ -8,21 +8,21 @@
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>BASF RM 900</li>
-						<li>Tork # 121202 - Wipers</li>
-						<li>Carbo/Norton - 120 Grit, 6" Discs</li>
+						<li><span>BASF RM 900</span>- Pre-Cleano</li>
+						<li><span>Tork # 121202</span>- Wipers</li>
+						<li><span>Carbo/Norton</span>- 120 Grit, 6" Discs</li>
 					</ul>
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>Carbo/Norton - 180 Grit, 6" Discs</li>
-						<li>U-POL # 7061 - Stronghold Plastic Filler</li>
+						<li><span>Carbo/Norton</span>- 180 Grit, 6" Discs</li>
+						<li><span>U-POL # 7061</span>- Stronghold Plastic Filler</li>
 						<li>Alternative :</li>
-						<li>3M # 05887 - EZ Sand Flexible</li>
+						<li><span>3M # 05887</span>- EZ Sand Flexible</li>
 					</ul>
 				</div>
 				<div class="medium-2 column">
-					<div class="text-center">
+					<div class="text-center safety">
 						SAFETY<br>
 						N95 Dust Masks<br>
 						Disposable Gloves<br>
@@ -30,11 +30,7 @@
 					</div>
 				</div>
 			</div>
-			
-			
-			
-			
-			<small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	
@@ -44,7 +40,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/01-01.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -56,13 +52,13 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean2.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/01-02.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
 							<ul>
-								<li><p>Sand out damaged area with 120 grit</p></li>
-								<li><p>Feather the outer area with 180 grit (consider using a spritzer w/water while DA sanding if plastic 'hairs up')</p></li>
+								<li>Sand out damaged area with 120 grit</li>
+								<li>Feather the outer area with 180 grit (consider using a <strong>spritzer w/water while DA sanding if plastic 'hairs up'</strong>)</li>
 							</ul>
 						</div>
 					</div>
@@ -71,7 +67,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/blower.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/01-03.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -84,7 +80,7 @@
 					<div class="medium-2 column">Step #4</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/mix_upol7061.jpg')?>
+							<?=\Asset::img('body_shop/01-04.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -100,12 +96,12 @@
 					<div class="medium-2 column">Step #5</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/plastic_fillter.jpg')?>
+							<?=\Asset::img('body_shop/01-05.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
-							<p>Spread U-Pol#7061 Stronghold Plastic Filler</p>
+							<p>Spread U-<strong>Pol#7061 Stronghold Plastic Filler</strong></p>
 						</div>
 					</div>
 				</div>
@@ -114,7 +110,7 @@
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/watch.jpg')?>
+							<?=\Asset::img('body_shop/01-06.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -128,14 +124,14 @@
 					<div class="medium-2 column">Step #7</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/clean2.jpg')?>
+							<?=\Asset::img('body_shop/01-07.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
 							<ul>
-								<li><p>Sand repair material with 120 grit</p></li>
-								<li><p>Finish sand entire repair area with 180 grit</p></li>
+								<li>Sand repair material with 120 grit</li>
+								<li><strong>Finish sand entire repair area with 180 grit</strong></li>
 							</ul>
 						</div>
 					</div>
@@ -144,15 +140,21 @@
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/info.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/01-info.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
-						<div class="border">
-							Tech Support: www.u-pol.com
-							1-800-234-3876
-
-							QR Code:
-							Cosmetic Repair Video
+						<div class="border qr">
+							<div class="row column tech-support">
+								Tech Support: <?=\Html::anchor('http://www.u-pol.com','www.u-pol.com');?><br>
+								1-800-234-3876<br>
+							</div>
+							<div class="row column">
+								<div class="float-left">
+									QR Code:<br>
+									Cosmetic Repair Video<br>
+								</div>
+								<?=\Asset::img('body_shop/01-qr.jpg', array('class' => 'float-right'));?>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -162,7 +164,7 @@
 		
 		
 		<div class="row">
-			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
+			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <br><strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
 		</div>
 	</div>
 </div>

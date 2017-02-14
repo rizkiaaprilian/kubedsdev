@@ -8,19 +8,19 @@
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>Norton - 50 grit, 2" discs</li>
-						<li>BASF RM 900 - Pre-Cleano</li>
-						<li>Tork # 121202 - Wipers</li>
+						<li><span>Norton</span>- 50 grit, 2" discs</li>
+						<li><span>BASF RM 900</span>- Pre-Cleano</li>
+						<li><span>Tork # 121202</span>- Wipers</li>
 					</ul>
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>Fusor # 804HD (Gray) - Weld bondable sealer</li>
-						<li>Fusor # 805HD (Black) - Weld bondable sealer</li>
+						<li><span>Fusor # 804HD (Gray)</span>- Weld bondable sealer</li>
+						<li><span>Fusor # 805HD (Black)</span>- Weld bondable sealer</li>
 					</ul>
 				</div>
 				<div class="medium-2 column">
-					<div class="text-center">
+					<div class="text-center safety">
 						SAFETY<br>
 						P100 Respirator<br>
 						Disposable Gloves<br>
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 			
-			<small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	
@@ -39,12 +39,12 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/05-01.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
 							<p>Remove rust, adhesive, e-coatings and galvanized coating from the mating surfaces with a 50 grit disc</p>
-							<p>Note - Be sure to grind until all coatings (including galvanized coating) have been removed.</p>
+							<p>Note - <strong>Be sure to grind until all coatings (including galvanized coating) have been removed.</strong></p>
 						</div>
 					</div>
 				</div>
@@ -52,7 +52,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean2.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/05-02.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -64,7 +64,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/blower.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/05-03.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -76,9 +76,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/mix_upol7061.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/05-04.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -93,9 +91,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #5</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/plastic_fillter.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/05-05.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -110,9 +106,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/watch.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/05-06.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -124,14 +118,12 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #7</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/watch.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/05-07.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
 							<p>Weld through the adhesive</p>
-							<p>Note - You may weld through the sealer at any time while it is still wet or once it has dried</p>
+							<p><strong>Note - You may weld through the sealer at any time while it is still wet or once it has dried</strong></p>
 						</div>
 					</div>
 				</div>
@@ -139,14 +131,21 @@
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/info.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/05-info.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
-						<div class="border">
-							<p>Tech Support: www.lord.com</p>
-							1-800-234-3876<br>
-							QR Code:<br>
-							Weld / Bond Video
+						<div class="border qr">
+							<div class="row column tech-support">
+								Tech Support: <?=\Html::anchor('http://www.lord.com','www.lord.com');?><br>
+								1-800-234-3876
+							</div>
+							<div class="row column">
+								<div class="float-left">
+									QR Code:<br>
+									Weld / Bond Video<br>
+								</div>
+								<?=\Asset::img('body_shop/05-qr.jpg', array('class' => 'float-right'));?>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -5,8 +5,8 @@ return array(
 	'admin' 	=> 'admin/dashboard',
 	'logout' => 'login/logout',
 	'login/recover/:token' => 'login/recover/$1',
-	'mypage/body-shop' => 'mypage/bodyshop',
-	'mypage/body-shop/sops' => 'mypage/bodyshop_sop',
-	'mypage/body-shop/products' => 'mypage/bodyshop_approved_products',
+	'body-shop' => 'bodyshop/index',
+	'body-shop/sops' => 'bodyshop/bodyshop_sop',
+	'body-shop/products' => 'bodyshop/bodyshop_approved_products',
 	
 );

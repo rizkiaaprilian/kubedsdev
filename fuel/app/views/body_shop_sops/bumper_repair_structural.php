@@ -8,23 +8,23 @@
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>BASF RM 900 - Pre-Cleano</li>
-						<li>Norton/Carbo - 180 Grit, 6" Discs</li>
-						<li>Norton/Carbo - 50 Grit, 2" Discs & 3" Disc</li>
-						<li>Norton/Carbo - 80 Grit, 6" Discs</li>
-						<li>Norton/Carbo - 120 Grit, 6" Discs</li>
+						<li><span>BASF RM 900</span>- Pre-Cleano</li>
+						<li><span>Norton/Carbo</span>- 180 Grit, 6" Discs</li>
+						<li><span>Norton/Carbo</span>- 50 Grit, 2" Discs & 3" Disc</li>
+						<li><span>Norton/Carbo</span>- 80 Grit, 6" Discs</li>
+						<li><span>Norton/Carbo</span>- 120 Grit, 6" Discs</li>
 					</ul>
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>3M # 06396 - Adhesive Promoter</li>
-						<li>Norton # 04615 - Adhesive Repair Material</li>
-						<li>Fusor # 700 - Reinforcement Cloth</li>
-						<li>U-POL # 7061 - Cosmetic Repair Material</li>
+						<li><span>3M # 06396</span>- Adhesive Promoter</li>
+						<li><span>Norton # 04615</span>- Adhesive Repair Material</li>
+						<li><span>Fusor # 700</span>- Reinforcement Cloth</li>
+						<li><span>U-POL # 7061</span>- Cosmetic Repair Material</li>
 					</ul>
 				</div>
 				<div class="medium-2 column">
-					<div class="text-center">
+					<div class="text-center safety">
 						SAFETY<br>
 						Mask w /P 100 filter<br>
 						Disposable Gloves<br>
@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			
-			<small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	
@@ -43,7 +43,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/02-01.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -55,7 +55,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean2.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/02-02.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -71,7 +71,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/blower.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/02-03.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -84,7 +84,7 @@
 					<div class="medium-2 column">Step #4</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/mix_upol7061.jpg')?>
+							<?=\Asset::img('body_shop/02-04.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -97,7 +97,7 @@
 					<div class="medium-2 column">Step #5</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/plastic_fillter.jpg')?>
+							<?=\Asset::img('body_shop/02-05.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -111,7 +111,7 @@
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/watch.jpg')?>
+							<?=\Asset::img('body_shop/02-06.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -127,14 +127,14 @@
 					<div class="medium-2 column">Step #7</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/clean2.jpg')?>
+							<?=\Asset::img('body_shop/02-07.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
 							<ul>
 								<li>Sand any front side adhesive with 120 grit</li>
-								<li><strong>If no additional material is needed</strong>, finish sand with 180 grit</li>
+								<li><strong><u>If no additional material is needed</u></strong>, finish sand with 180 grit</li>
 							</ul>
 						</div>
 					</div>
@@ -150,7 +150,7 @@
 					<div class="medium-2 column">Step #8</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/clean2.jpg')?>
+							<?=\Asset::img('body_shop/02-08.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -163,15 +163,13 @@
 					<div class="medium-2 column">Step #9</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/clean2.jpg')?>
+							<?=\Asset::img('body_shop/02-09.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
-							<ul>
-								<li>Apply U-POL 7061 to front side of repair area</li>
-								<li>Note - Do not use polyester fillers / putties over adhesive repairs</li>
-							</ul>
+							<p>Apply U-POL 7061 to front side of repair area</p>
+							<p><strong>Note - <em>Do not use polyester fillers / putties over adhesive repairs</em></strong></p>
 						</div>
 					</div>
 				</div>
@@ -179,7 +177,7 @@
 					<div class="medium-2 column">Step #10</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/clean2.jpg')?>
+							<?=\Asset::img('body_shop/02-10.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -192,7 +190,7 @@
 					<div class="medium-2 column">Step #11</div>
 					<div class="medium-2 column">
 						<div class="border">
-							<?=\Asset::img('bodysop/clean2.jpg')?>
+							<?=\Asset::img('body_shop/02-11.jpg')?>
 						</div>
 					</div>
 					<div class="medium-8 column">
@@ -208,14 +206,20 @@
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/info.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/02-info.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
-						<div class="border">
-							<p>Tech Support: www.nortonautomotive.com</p>
-
-							QR Code:<br>
-							Norton Website
+						<div class="border qr">
+							<div class="row column tech-support">
+								Tech Support: <?=\Html::anchor('http://www.nortonautomotive.com','www.nortonautomotive.com');?><br>
+							</div>
+							<div class="row column">
+								<div class="float-left">
+									QR Code:<br>
+									Norton Website<br>
+								</div>
+								<?=\Asset::img('body_shop/02-qr.jpg', array('class' => 'float-right'));?>
+							</div>
 						</div>
 					</div>
 				</div>

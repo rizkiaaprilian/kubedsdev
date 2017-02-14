@@ -23,13 +23,5 @@ class Mypage extends Auth {
 	public function action_repair() {
 		$this->template->content = \View::forge('repair');
 	}
-	public function action_bodyshop(){
-		$this->template->content = \View::forge('body_shop');
-	}
-	public function action_bodyshop_sop(){
-		$this->template->content = \View::forge('body_shop_sops');
-	}
-	public function action_bodyshop_approved_products(){
-		$this->template->content = \View::forge('body_shop_approved_products');
-	}
+	
 }

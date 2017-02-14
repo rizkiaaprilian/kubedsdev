@@ -8,23 +8,23 @@
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>BASF RM 900 - Pre-Cleano</li>
-						<li>Norton - 50 Grit, 2" Disc</li>
-						<li>Norton - 80 Grit E weight file strip paper</li>
-						<li>Norton - 80 Grit Sheet Rolls</li>
-						<li>Norton - 120 Grit, Sheet Rolls</li>
-						<li>Norton - 180 Grit, Sheet Rolls</li>
+						<li><span>BASF RM 900</span>- Pre-Cleano</li>
+						<li><span>Norton</span>- 50 Grit, 2" Disc</li>
+						<li><span>Norton</span>- 80 Grit E weight file strip paper</li>
+						<li><span>Norton</span>- 80 Grit Sheet Rolls</li>
+						<li><span>Norton</span>- 120 Grit, Sheet Rolls</li>
+						<li><span>Norton</span>- 180 Grit, Sheet Rolls</li>
 					</ul>
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>Norton - 120 Grit 6" DA Discs</li>
-						<li>Norton - 180 Grit, 6" DA Disc</li>
-						<li>Norton - 8" 80 Grit E Weight Discs</li>
+						<li><span>Norton</span>- 120 Grit 6" DA Discs</li>
+						<li><span>Norton</span>- 180 Grit, 6" DA Disc</li>
+						<li><span>Norton</span>- 8" 80 Grit E Weight Discs</li>
 					</ul>
 				</div>
 				<div class="medium-2 column">
-					<div class="text-center">
+					<div class="text-center safety">
 						SAFETY<br>
 						Mask w/P100 or N95 filter<br>
 						Disposable Gloves
@@ -32,7 +32,7 @@
 				</div>
 			</div>
 			
-			<small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	
@@ -42,7 +42,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/11-01.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -55,7 +55,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean2.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/11-02.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -70,7 +70,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/blower.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/11-03.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -83,9 +83,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/mix_upol7061.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/11-04.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -98,9 +96,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #5</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/plastic_fillter.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/11-05.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -114,9 +110,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/plastic_fillter.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/11-06.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -135,7 +129,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #7</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/11-07.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -149,7 +143,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #8</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean2.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/11-08.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -163,7 +157,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #9</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/blower.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/11-09.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -174,12 +168,10 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #10</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/mix_upol7061.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/11-10.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
-						<div class="border">
+						<div class="border yellow">
 							<p>Prep department takes bodywork from this point on. Prep department will not be over-sanding bodywork prior to priming - bodywork must be 100%</p>
 						</div>
 					</div>
@@ -188,7 +180,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/info.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/11-recap.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">

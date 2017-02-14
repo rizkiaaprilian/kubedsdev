@@ -8,21 +8,21 @@
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>BASF RM 900 - Pre-Cleano</li>
-						<li>TORK # 440278A - Wipers</li>
-						<li>Norton/Carbo - Red Scuff Pad</li>
-						<li>3M - 1/4" Fine Line Tape Blue</li>
+						<li><span>BASF RM 900</span>- Pre-Cleano</li>
+						<li><span>TORK # 440278A</span>- Wipers</li>
+						<li><span>Norton/Carbo</span>- Red Scuff Pad</li>
+						<li><span>3M</span>- 1/4" Fine Line Tape Blue</li>
 					</ul>
 				</div>
 				<div class="medium-4 column">
 					<ul class="no-bullet">
-						<li>3M # 26334 - 3/4 Masking Tape</li>
-						<li>Fusor # 123EZ - Standard Flow Seam Sealer</li>
-						<li>Fusor # 401 - Mixing Tips</li>
+						<li><span>3M #26334</span> - 3/4 Masking Tape</li>
+						<li><span>Fusor # 123EZ</span>- Standard Flow Seam Sealer</li>
+						<li><span>Fusor # 401</span>- Mixing Tips</li>
 					</ul>
 				</div>
 				<div class="medium-2 column">
-					<div class="text-center">
+					<div class="text-center safety">
 						SAFETY<br>
 						N95 Dust Masks<br>
 						Disposable Gloves<br>
@@ -31,7 +31,7 @@
 				</div>
 			</div>
 			
-			<small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	
@@ -41,7 +41,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/07-01.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -53,7 +53,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/clean2.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/07-02.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -65,7 +65,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/blower.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/07-03.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -77,9 +77,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/mix_upol7061.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/07-04.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -91,9 +89,7 @@
 				<div class="row step">
 					<div class="medium-2 column">Step #5</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/plastic_fillter.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/07-05.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -102,12 +98,14 @@
 					</div>
 				</div>
 				
+				
+				
+			</div>
+			<div class="medium-6 column">
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/watch.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/07-06.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -118,16 +116,10 @@
 						</div>
 					</div>
 				</div>
-				
-			</div>
-			<div class="medium-6 column">
-				
 				<div class="row step">
 					<div class="medium-2 column">Step #7</div>
 					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('bodysop/watch.jpg')?>
-						</div>
+						<div class="border"><?=\Asset::img('body_shop/07-07.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
@@ -145,16 +137,21 @@
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('bodysop/info.jpg')?></div>
+						<div class="border"><?=\Asset::img('body_shop/07-info.jpg')?></div>
 					</div>
 					<div class="medium-8 column">
-						<div class="border">
-							<p>Tech Support: www.lord.com</p>
-							1-800-234-3876<br>
-							QR Code:<br>
-							Seam Sealing Video<br>
-							QR Code:<br>
-							Controlled Flow Seam Sealer Technical Support
+						<div class="border qr">
+							<div class="row column tech-support">
+								Tech Support: <?=\Html::anchor('http://www.lord.com','www.lord.com');?><br>
+								1-800-234-3876
+							</div>
+							<div class="row column">
+								<div class="float-left">
+									QR Code:<br>
+									Seam Sealing Video<br>
+								</div>
+								<?=\Asset::img('body_shop/07-qr.jpg', array('class' => 'float-right'));?>
+							</div>
 						</div>
 					</div>
 				</div>
