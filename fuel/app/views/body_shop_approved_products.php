@@ -12,16 +12,41 @@
 </div>
 <div class="row column">
 	<ol class="menu">
-		<li><?=\Html::anchor('', 'OEM Repair Information', array('id' => 'oemrepair'));?></li>
+		<li><?=\Html::anchor('', 'Abrasives', array('id' => 'abrasives'));?></li>
+		<li><?=\Html::anchor('', 'Adhesives', array('id' => 'adhesives'));?></li>
+		<li><?=\Html::anchor('', 'Aerosol', array('id' => 'aerosol'));?></li>
+		<li><?=\Html::anchor('', 'Fillers and Putties', array('id' => 'filler_putties'));?></li>
+		<li><?=\Html::anchor('', 'Miscellanous', array('id' => 'miscellanous'));?></li>
+		<li><?=\Html::anchor('', 'Product Request Form', array('id' => 'request'));?></li>
 	</ol>
 </div>
-<div class="row column" id="content">
+<div class="row column body-shop-approved-products" id="content">
 
 </div>
 <script>
-	$('#content').load(baseUrl + 'bodyshop/oemrepair.html');
-	$('#oemrepair').on('click', function(e) {
+	$('#content').load(baseUrl + 'bodyshop/products/abrasives.html');
+	$('#abrasives').on('click', function(e) {
 		e.preventDefault();
-		$('#content').load(baseUrl + 'bodyshop/oemrepair.html');
+		$('#content').load(baseUrl + 'bodyshop/products/abrasives.html');
+	});
+	$('#adhesives').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/products/adhesives.html');
+	});
+	$('#aerosol').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/products/aerosols.html');
+	});
+	$('#filler_putties').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/products/filler_putties.html');
+	});
+	$('#miscellanous').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/products/miscellaneous.html');
+	});
+	$('#request').on('click', function(e) {
+		e.preventDefault();
+		$('#content').load(baseUrl + 'bodyshop/products/request.html');
 	});
 </script>

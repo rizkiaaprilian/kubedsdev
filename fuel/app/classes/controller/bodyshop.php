@@ -15,6 +15,8 @@ class Bodyshop extends Auth {
 		$this->template->content = \View::forge('body_shop_sops');
 	}
 	public function action_bodyshop_approved_products() {
+		$this->template->styles = array('datatables.min.css','dataTables.foundation.min.css');
+		$this->template->scripts = array('datatables.min.js','dataTables.foundation.min.js');
 		$this->template->content = \View::forge('body_shop_approved_products');
 	}
 	public function get_oemrepair(){
