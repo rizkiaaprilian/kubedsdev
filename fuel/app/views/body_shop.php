@@ -4,8 +4,8 @@
 	</div>
 	<div class="small-5 column text-right">
 		<?=\Html::anchor('/mypage', 'Home', array('class' => 'button'));?>
-		<?=\Html::anchor('/mypage/body-shop/sops', 'Body SOPs', array('class' => 'button'));?>
-		<?=\Html::anchor('/mypage/body-shop/products', 'Approved Products', array('class' => 'button warning'));?>
+		<?=\Html::anchor('/body-shop/sops', 'Body SOPs', array('class' => 'button'));?>
+		<?=\Html::anchor('/body-shop/products', 'Approved Products', array('class' => 'button warning'));?>
 	</div>
 </div>
 <div class="row column">
