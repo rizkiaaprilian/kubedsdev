@@ -60,9 +60,9 @@
 					<div class="medium-8 column">
 						<div class="border">
 							<ul>
-								<li><p>Grind damaged area with a 50 grit 2" disc</p></li>
-								<li><p>Sand damaged area (front & back) with 80 grit</p></li>
-								<li><p>Feather the outer area (front side) with 120 grit</p></li>
+								<li>Grind damaged area with a 50 grit 2" disc</li>
+								<li>Sand damaged area (front & back) with 80 grit</li>
+								<li>Feather the outer area (front side) with 120 grit</li>
 							</ul>
 						</div>
 					</div>
@@ -133,13 +133,19 @@
 					<div class="medium-8 column">
 						<div class="border">
 							<ul>
-								<li><p>Sand any front side adhesive with 120 grit</p></li>
-								<li><p><strong>If no additional material is needed</strong>, finish sand with 180 grit</p></li>
+								<li>Sand any front side adhesive with 120 grit</li>
+								<li><strong>If no additional material is needed</strong>, finish sand with 180 grit</li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="row step"><p>If additional material is needed:</p></div>
+				<div class="row step">
+					<div class="column">
+						<div class="additional">
+							<strong>If additional material is needed:</strong>
+						</div>
+					</div>
+				</div>
 				<div class="row step">
 					<div class="medium-2 column">Step #8</div>
 					<div class="medium-2 column">
@@ -163,8 +169,8 @@
 					<div class="medium-8 column">
 						<div class="border">
 							<ul>
-								<li><p>Apply U-POL 7061 to front side of repair area</p></li>
-								<li><p>Note - Do not use polyester fillers / putties over adhesive repairs</p></li>
+								<li>Apply U-POL 7061 to front side of repair area</li>
+								<li>Note - Do not use polyester fillers / putties over adhesive repairs</li>
 							</ul>
 						</div>
 					</div>
@@ -192,8 +198,8 @@
 					<div class="medium-8 column">
 						<div class="border">
 							<ul>
-								<li><p>Sand area with 120 grit 6" disc</p></li>
-								<li><p>Finish sand with 180 grit 6" disc</p></li>
+								<li>Sand area with 120 grit 6" disc</li>
+								<li>Finish sand with 180 grit 6" disc</li>
 							</ul>
 						</div>
 					</div>
@@ -206,9 +212,9 @@
 					</div>
 					<div class="medium-8 column">
 						<div class="border">
-							Tech Support: www.nortonautomotive.com
+							<p>Tech Support: www.nortonautomotive.com</p>
 
-							QR Code:
+							QR Code:<br>
 							Norton Website
 						</div>
 					</div>
@@ -219,7 +225,7 @@
 		
 		
 		<div class="row">
-			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
+			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <br><strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
 		</div>
 	</div>
 </div>
