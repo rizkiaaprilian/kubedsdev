@@ -201,6 +201,9 @@ footer {
 .spray-gun .border{
     min-height: 67px
 }
+.border.qr .float-right{
+    margin-bottom: 15px;
+}
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
