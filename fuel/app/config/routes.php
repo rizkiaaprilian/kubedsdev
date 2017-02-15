@@ -6,9 +6,13 @@ return array(
 	'logout' => 'login/logout',
 	'login/recover/:token' => 'login/recover/$1',
 	'body-shop' => 'bodyshop/index',
-	'body-shop/sops' => 'bodyshop/bodyshop_sop',
-	'body-shop/products' => 'bodyshop/bodyshop_approved_products',
+	'body-shop/sops' => 'bodyshop/sop',
+	'body-shop/products' => 'bodyshop/approved_products',
 	'body-shop/msds' => 'bodyshop/msds',
-	'body-shop/support' => 'bodyshop/techsupport',
-	'paint-shop' => 'paintshop/index'
+	'body-shop/support' => 'mypage/techsupport',
+	'paint-shop' => 'paintshop/index',
+	'paint-shop/sops' => 'paintshop/sop',
+	'paint-shop/products' => 'paintshop/approved_products',
+	'paint-shop/test' => 'paintshop/fit_test',
+	'paint-shop/support' => 'mypage/techsupport'
 );

@@ -1,7 +1,7 @@
 <div class="row column">
 	<h3>Body Shop</h3>
 	<h3>Approved Product List | Miscellaneous</h3>
-	<h6>20 SKU's TOTAL</h6>
+	<h5>20 SKU's TOTAL</h5>
 	<div class="text-left">
 		<table id="data_miscellaneous" class="table table-striped" border="1">
 			<thead>

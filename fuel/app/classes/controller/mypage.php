@@ -6,6 +6,7 @@ class Mypage extends Auth {
 
 	public function before() {
 		parent::before();
+		\Asset::add_path('assets/kube', 'img');
 		\Asset::add_path('assets/kube/0001', 'img');
 		$user = $this->authlite->get_user();
 		$this->template->bus_name = $user->bus_name;
@@ -23,5 +24,7 @@ class Mypage extends Auth {
 	public function action_repair() {
 		$this->template->content = \View::forge('repair');
 	}
-	
+	public function action_techsupport() {
+		$this->template->content = \View::forge('technical_support');
+	}
 }

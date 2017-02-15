@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="small-6 column">
-		<h2>Body Shop Processes</h2>
+		<h2>Body Shop SOPs</h2>
 	</div>
 	<div class="small-6 column text-right">
 		<?=\Html::anchor('/mypage', 'Home', array('class' => 'button'));?>

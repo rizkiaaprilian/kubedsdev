@@ -1,13 +1,11 @@
 <div class="row">
 	<div class="small-6 column">
-		<h2>Body Shop Processes</h2>
+		<h2>Body Shop Approved Product Lists</h2>
 	</div>
 	<div class="small-6 column text-right">
 		<?=\Html::anchor('/mypage', 'Home', array('class' => 'button'));?>
 		<?=\Html::anchor('/body-shop/sops', 'Body SOPs', array('class' => 'button'));?>
-		<?=\Html::anchor('/body-shop/products', 'Approved Products', array('class' => 'button warning'));?>
-		<?=\Html::anchor('/body-shop/msds', 'MSDS', array('class' => 'button alert'));?>
-		<?=\Html::anchor('/body-shop/support', 'Technical Support', array('class' => 'button alert'));?>
+		<?=\Html::anchor('/body-shop', 'Process', array('class' => 'button'));?>
 	</div>
 </div>
 <div class="row column">
@@ -20,7 +18,7 @@
 		<li><?=\Html::anchor('', 'Product Request Form', array('id' => 'request'));?></li>
 	</ol>
 </div>
-<div class="row column body-shop-approved-products" id="content">
+<div class="row column approved-products" id="content">
 
 </div>
 <script>
