@@ -10,4 +10,5 @@ return array(
 	'body-shop/products' => 'bodyshop/bodyshop_approved_products',
 	'body-shop/msds' => 'bodyshop/msds',
 	'body-shop/support' => 'bodyshop/techsupport',
+	'paint-shop' => 'paintshop/index'
 );

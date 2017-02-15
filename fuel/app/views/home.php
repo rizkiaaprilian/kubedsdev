@@ -8,9 +8,9 @@
 	<area shape="rect" coords="899,56,996,80" href="body-shop" />
 	<area shape="rect" coords="899,26,996,50" href="body-shop/sops" />
 	<area shape="rect" coords="901,86,995,121" href="body-shop/products" />
-	<area shape="rect" coords="906,519,1004,543" href="mypage/paint-shop" />
-	<area shape="rect" coords="908,489,1003,513" href="mypage/paint-shop/sops" />
-	<area shape="rect" coords="907,550,1003,584" href="mypage/paint-shop/products" />
+	<area shape="rect" coords="906,519,1004,543" href="paint-shop" />
+	<area shape="rect" coords="908,489,1003,513" href="paint-shop/sops" />
+	<area shape="rect" coords="907,550,1003,584" href="paint-shop/products" />
 	<area shape="rect" coords="449,520,545,544" href="mypage/detail-shop" />
 	<area shape="rect" coords="449,488,545,514" href="mypage/detail-shop/sops" />
 	<area shape="rect" coords="448,550,545,586" href="mypage/detail-shop/products" />
