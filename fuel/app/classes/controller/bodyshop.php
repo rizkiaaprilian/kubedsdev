@@ -27,6 +27,6 @@ class Bodyshop extends Auth {
 		return $this->response($view);
 	}
 	public function action_msds() {
-		$this->template->content = \View::forge('body_shop/msds');
+		$this->template->content = \View::forge('msds');
 	}
 }

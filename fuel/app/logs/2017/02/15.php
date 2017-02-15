@@ -10,3 +10,12 @@ ERROR - 2017-02-15 09:57:44 --> Error - Could not find asset: paint_shop/09-qr.j
 ERROR - 2017-02-15 10:25:38 --> Error - Could not find asset: tech_support/norton.png in C:\xampp7\htdocs\kubeds\fuel\core\classes\asset\instance.php on line 413
 ERROR - 2017-02-15 10:54:04 --> Error - The requested view could not be found: paint_shop_products.php in C:\xampp7\htdocs\kubeds\fuel\core\classes\view.php on line 490
 ERROR - 2017-02-15 11:02:00 --> Error - File "APPPATH/\classes\controller\paintshop\products.php" does not contain class "Controller\Paintshop\Products" in C:\xampp7\htdocs\kubeds\fuel\core\classes\autoloader.php on line 397
+ERROR - 2017-02-15 15:14:15 --> Error - File "APPPATH/\classes\controller\bodyshop\msds.php" does not contain class "Controller\Bodyshop\Msds" in C:\xampp7\htdocs\kubeds\fuel\core\classes\autoloader.php on line 397
+ERROR - 2017-02-15 15:14:32 --> Error - File "APPPATH/\classes\controller\bodyshop\msds.php" does not contain class "Controller\Bodyshop\Msds" in C:\xampp7\htdocs\kubeds\fuel\core\classes\autoloader.php on line 397
+ERROR - 2017-02-15 15:14:46 --> Warning - Attempt to assign property of non-object in C:\xampp7\htdocs\kubeds\fuel\app\classes\controller\bodyshop.php on line 30
+ERROR - 2017-02-15 15:14:49 --> Warning - Attempt to assign property of non-object in C:\xampp7\htdocs\kubeds\fuel\app\classes\controller\bodyshop.php on line 30
+ERROR - 2017-02-15 15:15:02 --> Warning - Attempt to assign property of non-object in C:\xampp7\htdocs\kubeds\fuel\app\classes\controller\bodyshop.php on line 30
+ERROR - 2017-02-15 15:17:44 --> Error - The requested view could not be found: body_shop/msds_3.php in C:\xampp7\htdocs\kubeds\fuel\core\classes\view.php on line 490
+ERROR - 2017-02-15 15:36:16 --> Error - Could not find asset: Profom-509.jpg in C:\xampp7\htdocs\kubeds\fuel\core\classes\asset\instance.php on line 413
+ERROR - 2017-02-15 15:36:43 --> Error - Could not find asset: Fusor-T21-part-B in C:\xampp7\htdocs\kubeds\fuel\core\classes\asset\instance.php on line 413
+ERROR - 2017-02-15 15:38:18 --> Warning - Attempt to assign property of non-object in C:\xampp7\htdocs\kubeds\fuel\app\classes\controller\bodyshop.php on line 30
