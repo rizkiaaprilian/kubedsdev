@@ -3,7 +3,7 @@
 	<h3>Approved Product List | Abrasives</h3>
 	<h6>33 SKU's TOTAL</h6>
 	<div class="text-left">
-		<table id="data_abrasives" class="table table-striped">
+		<table id="data_abrasives" class="table table-striped" border="1">
 			<thead>
 				<tr>
 					<th>PART #</th>

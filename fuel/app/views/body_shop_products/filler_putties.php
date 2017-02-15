@@ -3,7 +3,7 @@
 	<h3>Approved Product List | Fillers and Putties</h3>
 	<h6>8 SKU's TOTAL</h6>
 	<div class="text-left">
-		<table id="data_filler_putties" class="table table-striped">
+		<table id="data_filler_putties" class="table table-striped" border="1">
 			<thead>
 				<tr>
 					<th>PART #</th>

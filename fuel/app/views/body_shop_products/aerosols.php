@@ -3,7 +3,7 @@
 	<h3>Approved Product List | Aerosols</h3>
 	<h6>8 SKU's TOTAL</h6>
 	<div class="text-left">
-		<table id="data_aerosols" class="table table-striped">
+		<table id="data_aerosols" class="table table-striped" border="1">
 			<thead>
 				<tr>
 					<th>PART #</th>

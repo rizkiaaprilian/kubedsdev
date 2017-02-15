@@ -3,7 +3,7 @@
 	<h3>Approved Product List | Miscellaneous</h3>
 	<h6>20 SKU's TOTAL</h6>
 	<div class="text-left">
-		<table id="data_miscellaneous" class="table table-striped">
+		<table id="data_miscellaneous" class="table table-striped" border="1">
 			<thead>
 				<tr>
 					<th>PART #</th>

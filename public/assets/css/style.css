@@ -168,6 +168,16 @@ footer {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.body-shop-approved-products table.dataTable tbody th, table.dataTable tbody tr{
+    border-bottom: 1px solid #000
+}
+.body-shop-approved-products table.dataTable tbody th, table.dataTable tbody td{
+    line-height: 0.8rem
+}
+.body-shop-approved-products .change-request-form .form{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
