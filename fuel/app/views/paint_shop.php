@@ -10,7 +10,7 @@
 </div>
 <div class="row column">
 	<ol class="menu">
-		<li><?=\Html::anchor('', 'Paint Shop Processes', array('id' => 'process'));?></li>
+		<li><?=\Html::anchor('#', 'Paint Shop Processes', array('id' => 'process'));?></li>
 	</ol>
 </div>
 <div class="row column" id="content">
