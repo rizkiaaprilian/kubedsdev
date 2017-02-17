@@ -19,22 +19,22 @@
 
 </div>
 <script>
-	$('#content').load(baseUrl + 'bodyshop/oemrepair.html');
+	$('#content').load(baseUrl + 'bodyshop/process/oemrepair.html');
 	$('#oemrepair').on('click', function(e) {
 		e.preventDefault();
-		$.get(baseUrl + 'bodyshop/oemrepair.html', {page: 1}, function(html){
+		$.get(baseUrl + 'bodyshop/process/oemrepair.html', {page: 1}, function(html){
 			$('#content').html(html);
 		});
 	});
 	$('#content').on('click', '.next-page', function(e) {
 		e.preventDefault();
-		$.get(baseUrl + 'bodyshop/oemrepair.html', {page: 2}, function(html){
+		$.get(baseUrl + 'bodyshop/process/oemrepair.html', {page: 2}, function(html){
 			$('#content').html(html);
 		});
 	});
 	$('#content').on('click', '.prev-page',function(e) {
 		e.preventDefault();
-		$.get(baseUrl + 'bodyshop/oemrepair.html', {page: 1}, function(html){
+		$.get(baseUrl + 'bodyshop/process/oemrepair.html', {page: 1}, function(html){
 			$('#content').html(html);
 		});
 	});

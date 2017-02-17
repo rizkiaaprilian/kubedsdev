@@ -14,5 +14,9 @@ return array(
 	'paint-shop/sops' => 'paintshop/sop',
 	'paint-shop/products' => 'paintshop/approved_products',
 	'paint-shop/test' => 'paintshop/fit_test',
-	'paint-shop/support' => 'mypage/techsupport'
+	'paint-shop/support' => 'mypage/techsupport',
+	'detail-shop' => 'detailshop/index',
+	'detail-shop/sops' => 'detailshop/sop',
+	'detail-shop/products' => 'detailshop/approved_products',
+	'detail-shop/support' => 'mypage/techsupport',
 );
