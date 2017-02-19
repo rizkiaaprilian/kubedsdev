@@ -14,5 +14,6 @@
 	<area shape="rect" coords="449,520,545,544" href="detail-shop" />
 	<area shape="rect" coords="449,488,545,514" href="detail-shop/sops" />
 	<area shape="rect" coords="448,550,545,586" href="detail-shop/products" />
-	<area shape="rect" coords="28,323,124,348" href="mypage/deliver" />
+	<area shape="rect" coords="28,323,124,348" href="mypage/delivery" />
+	<area shape="rect" coords="686,386,767,457" href="mypage/reassembly" />
 </map>

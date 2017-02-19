@@ -27,4 +27,10 @@ class Mypage extends Auth {
 	public function action_techsupport() {
 		$this->template->content = \View::forge('technical_support');
 	}
+	public function action_reassembly() {
+		$this->template->content = \View::forge('reassembly');
+	}
+	public function action_delivery() {
+		$this->template->content = \View::forge('delivery');
+	}
 }
