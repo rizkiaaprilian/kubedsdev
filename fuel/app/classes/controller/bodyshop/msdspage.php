@@ -9,12 +9,7 @@ class Msdspage extends \Controller_Rest {
 		// Not from the website exit out
 	}
 	public function get_index(){
-		$view = \View::forge('body_shop/msds_1');
-		if (\Input::get('page') == 2) {
-			$view = \View::forge('body_shop/msds_2');
-		} elseif(\Input::get('page') == 3) {
-			$view = \View::forge('body_shop/msds_3');
-		}
+		$view = \View::forge('body_shop/msds');
 		return $this->response($view);
 	}
 }
