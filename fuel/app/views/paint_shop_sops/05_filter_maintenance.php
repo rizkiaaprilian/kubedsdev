@@ -31,21 +31,21 @@
 	<div class="sop-body">
 		<div class="row step info">
 			<div class="medium-2 column">Info</div>
-			<div class="medium-2 column">
-				<div class="border"><?=\Asset::img('paint_shop/05-info.jpg')?></div>
-			</div>
-			<div class="medium-8 column">
-				<div class="border qr">
+			<div class="medium-10 column border">
+				<?=\Asset::img('paint_shop/05-info.jpg')?>
+				<div class="qr">
 					<div class="row column tech-support">
 						Tech Support: <?=\Html::anchor('http://www.satausa.com','www.satausa.com');?><br>
 						1-800-234-3876<br>
 					</div>
 					<div class="row column">
-						<div class="float-left">
-							QR Code:<br>
-							3 Stage Filter Video
+						<div class="tech-support-footer">
+							<div class="float-left">
+								QR Code:<br>
+								<?=\Html::anchor('http://www.youtube.com/watch?v=1HFcyyMquhA', '3 Stage Filter Video', array('target' => '_blank'));?>
+							</div>
+							<?=\Asset::img('paint_shop/05-qr.jpg')?>
 						</div>
-						<?=\Asset::img('paint_shop/05-qr.jpg', array('class' => 'float-right'))?>
 					</div>
 				</div>
 			</div>

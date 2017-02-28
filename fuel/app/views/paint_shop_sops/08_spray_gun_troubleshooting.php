@@ -97,27 +97,25 @@
 	</table>
 	<div class="sop-body">
 		<div class="row column">
-			<div class="medium-6 column">
-
-			</div>
+			<div class="medium-6 column"></div>
 			<div class="medium-6 column">
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('paint_shop/08-info.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border qr">
+					<div class="medium-10 column border">
+						<?=\Asset::img('paint_shop/08-info.jpg')?>
+						<div class="qr">
 							<div class="row column tech-support">
 								Tech Support: <?=\Html::anchor('http://www.satausa.com','www.satausa.com');?><br>
 								1-800-234-3876<br>
 							</div>
 							<div class="row column">
-								<div class="float-left">
-									QR Code:<br>
-									Gun Cleaning Video
+								<div class="tech-support-footer">
+									<div class="qr-info">
+										QR Code:<br>
+										<?=\Html::anchor('http://www.sata.com/index.php?id=satatv&no_cache=1&L=11&tx_pxsatatv_pi1[vid]=16', 'Gun Cleaning Video', array('target' => '_blank'));?>
+									</div>
+									<?=\Asset::img('paint_shop/08-qr.jpg')?>
 								</div>
-								<?=\Asset::img('paint_shop/08-qr.jpg', array('class' => 'float-right'))?>
 							</div>
 						</div>
 					</div>
