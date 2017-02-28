@@ -144,7 +144,8 @@
 <script>
 	$(document).ready(function(){
 		$('#data_miscellaneous').DataTable({
-			iDisplayLength: 25
+			iDisplayLength: 25,
+			responsive: true
 		});
 	});
 </script>

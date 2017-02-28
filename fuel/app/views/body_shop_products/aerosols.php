@@ -68,7 +68,8 @@
 <script>
 	$(document).ready(function(){
 		$('#data_aerosols').DataTable({
-			iDisplayLength: 25
+			iDisplayLength: 25,
+			responsive: true
 		});
 	});
 </script>

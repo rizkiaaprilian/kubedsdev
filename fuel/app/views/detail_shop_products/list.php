@@ -99,7 +99,8 @@
 <script>
 	$(document).ready(function(){
 		$('#data_products').DataTable({
-			iDisplayLength: 25
+			iDisplayLength: 25,
+			responsive: true
 		});
 	});
 </script>

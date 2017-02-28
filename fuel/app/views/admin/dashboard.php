@@ -11,6 +11,7 @@
 				<th>Company</th>
 				<th>Last Login</th>
 				<th>Status</th>
+				<th>Action</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -21,6 +22,7 @@
 					<td><?=$user['bus_name'];?></td>
 					<td><?=$user['last_login'];?></td>
 					<td><?=$status[$user['status_id']];?></td>
+					<td id="id_<?=$user['id'];?>"><?=\Html::anchor('#', 'Profile', array('class' => 'user-profile'));?></td>
 				</tr>
 			<?php endforeach; ?>
 		</tbody>
@@ -30,10 +32,12 @@
 <script>
 	$(document).ready(function() {
 		$('#datalist').DataTable({
-			iDisplayLength: 50
+			iDisplayLength: 50,
+			responsive: true
 		});
-		$('#datalist tbody').on('click', 'tr', function () {
-			var data = $(this).prop('id');
+		$('#datalist tbody').on('click', '.user-profile', function (e) {
+			e.preventDefault();
+			var data = $(this).parent().prop('id');
 			$.get('/admin/user/update.html?id=' + data.substring(3), function(html){
 				$('#user_profile').html(html).foundation('open');
 			});

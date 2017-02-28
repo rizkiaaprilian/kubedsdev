@@ -15,8 +15,8 @@ class Detailshop extends Auth {
 		$this->template->content = \View::forge('detail_shop_sops');
 	}
 	public function action_approved_products() {
-		$this->template->styles = array('datatables.min.css','dataTables.foundation.min.css');
-		$this->template->scripts = array('datatables.min.js','dataTables.foundation.min.js');
+		$this->template->styles = array('datatables.min.css','dataTables.foundation.min.css', 'responsive.dataTables.min.css', 'responsive.foundation.min.css');
+		$this->template->scripts = array('datatables.min.js','dataTables.foundation.min.js', 'dataTables.responsive.min.js', 'responsive.foundation.min.js');
 		$this->template->content = \View::forge('detail_shop_approved_products');
 	}
 }

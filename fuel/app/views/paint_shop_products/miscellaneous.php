@@ -182,7 +182,8 @@
 <script>
 	$(document).ready(function(){
 		$('#data_miscellaneous').DataTable({
-			iDisplayLength: 26
+			iDisplayLength: 26,
+			responsive: true
 		});
 	});
 </script>

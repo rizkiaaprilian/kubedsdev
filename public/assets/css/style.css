@@ -218,7 +218,7 @@ div .with-arrow .button.products {
     border-bottom: 1px solid #000
 }
 .approved-products table.dataTable tbody th, table.dataTable tbody td{
-    line-height: 0.8rem
+    line-height: 1rem
 }
 .approved-products .change-request-form .form{
     margin-top: 0.9375rem;

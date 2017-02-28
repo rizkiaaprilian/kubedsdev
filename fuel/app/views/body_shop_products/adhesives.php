@@ -135,7 +135,8 @@
 <script>
 	$(document).ready(function(){
 		$('#data_adhesives').DataTable({
-			iDisplayLength: 25
+			iDisplayLength: 25,
+			responsive: true
 		});
 	});
 </script>
