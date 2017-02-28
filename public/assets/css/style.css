@@ -240,6 +240,9 @@ div .with-arrow .button.products {
     .page-title .page-navigation{
         text-align: left;
     }
+    .menu > li, .menu.horizontal > li{
+        display: block;
+    }
 }
 
 /* Medium and up */
