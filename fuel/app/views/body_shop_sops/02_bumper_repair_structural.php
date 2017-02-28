@@ -149,7 +149,7 @@
 						<?=\Asset::img('body_shop/02-info.jpg')?>
 						<div class="qr">
 							<div class="row column tech-support">
-								Tech Support: <?=\Html::anchor('http://www.nortonautomotive.com','www.nortonautomotive.com');?>
+								Tech Support: <?=\Html::anchor('http://www.nortonautomotive.com','www.nortonautomotive.com', array('target' => '_blank'));?>
 							</div>
 							<div class="row column">
 								<div class="clearfix tech-support-footer">

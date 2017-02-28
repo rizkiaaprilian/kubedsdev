@@ -124,7 +124,7 @@
 						<?=\Asset::img('paint_shop/06-info.jpg', array('class' => 'info'))?>
 						<div class="qr">
 							<div class="row column tech-support">
-								Tech Support: <?=\Html::anchor('http://www.satausa.com','www.satausa.com');?><br>
+								Tech Support: <?=\Html::anchor('http://www.satausa.com','www.satausa.com', array('target' => '_blank'));?><br>
 								1-800-234-3876
 							</div>
 							<div class="row column">

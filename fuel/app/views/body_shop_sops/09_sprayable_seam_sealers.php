@@ -92,7 +92,7 @@
 							</div>
 							<div class="row column">
 								<div class="tech-support-footer">
-									Tech Support: <?=\Html::anchor('http://www.lord.com','www.lord.com');?><br>
+									Tech Support: <?=\Html::anchor('http://www.lord.com','www.lord.com', array('target' => '_blank'));?><br>
 									1-800-234-3876<br>
 									<div class="qr-info">
 										QR Code:<br>

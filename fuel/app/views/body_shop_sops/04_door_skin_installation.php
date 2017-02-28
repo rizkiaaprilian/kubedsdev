@@ -110,7 +110,7 @@
 							</div>
 							<div class="row column">
 								<div class="clearfix tech-support-footer">
-									Tech Support: <?=\Html::anchor('http://www.nortonautmotive.com','www.nortonautmotive.com');?><br>
+									Tech Support: <?=\Html::anchor('http://www.nortonautmotive.com','www.nortonautmotive.com', array('target' => '_blank'));?><br>
 									<div class="qr-info">
 										QR Code:<br>
 										<?=\Html::anchor('https://www.youtube.com/watch?v=q7BkjDlBBsw', 'Metal Bonding Video', array('target' => '_blank'));?>

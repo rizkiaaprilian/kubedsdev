@@ -107,7 +107,7 @@
 						<?=\Asset::img('body_shop/01-info.jpg')?>
 						<div class="qr">
 							<div class="row column tech-support">
-								Tech Support: <?=\Html::anchor('http://www.u-pol.com','www.u-pol.com');?><br>
+								Tech Support: <?=\Html::anchor('http://www.u-pol.com','www.u-pol.com', array('target' => '_blank'));?><br>
 								1-800-234-3876
 							</div>
 							<div class="row column">

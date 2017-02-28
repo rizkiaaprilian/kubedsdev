@@ -84,7 +84,7 @@
 						<?=\Asset::img('paint_shop/09-info.jpg', array('class' => 'info'))?>
 						<div class="qr">
 							<div class="row column tech-support">
-								Tech Support: <?=\Html::anchor('http://www.sassafety.com','www.sassafety.com');?><br>
+								Tech Support: <?=\Html::anchor('http://www.sassafety.com','www.sassafety.com', array('target' => '_blank'));?><br>
 								1-800-234-3876<br>
 							</div>
 							<div class="row column">
