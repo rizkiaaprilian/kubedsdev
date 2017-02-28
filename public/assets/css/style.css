@@ -133,6 +133,7 @@ div .with-arrow .button.products {
     border-radius: 50%;
     border: 1px solid #000;
     padding: 0.9375rem 0.625rem 1.5625rem 0.625rem;
+    width: 9rem
 }
 .sop-header .no-bullet li,
 .sop-header .safety{
