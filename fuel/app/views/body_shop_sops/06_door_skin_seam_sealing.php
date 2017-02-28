@@ -40,121 +40,95 @@
 			<div class="medium-6 column">
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/06-01.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Clean surface with RM 900 wax & grease remover, dry and blow off with an air blower.</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/06-01.jpg')?>
+						<p>Clean surface with RM 900 wax & grease remover, dry and blow off with an air blower.</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/06-02.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Prep & prime all bare metal surfaces and allow to dry per <strong>paint companies recommendations</strong></p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/06-02.jpg')?>
+						<p>Prep & prime all bare metal surfaces and allow to dry per <strong>paint companies recommendations</strong></p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/06-03.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Lightly sand surface with P400 grit or a red scuff pad</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/06-03.jpg')?>
+						<p>Lightly sand surface with P400 grit or a red scuff pad</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/06-04.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Clean surfaces with RM 900, dry and blow off with an air blower.</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/06-04.jpg')?>
+						<p>Clean surfaces with RM 900, dry and blow off with an air blower.</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #5</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/06-05.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Apply fine line tape or masking tape to both sides of the seam</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/06-05.jpg')?>
+						<p>Apply fine line tape or masking tape to both sides of the seam</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/06-06.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Apply Seam Sealer to the seam and then tool the bead with a spreader in order to produce a flat bead</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/06-06.jpg')?>
+						<p>Apply Seam Sealer to the seam and then tool the bead with a spreader in order to produce a flat bead</p>
 					</div>
 				</div>
-				
 			</div>
 			<div class="medium-6 column">
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #7</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/06-07.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Remove the masking tape ASAP after sealer application</p>
-							<p><strong>Additional Tech Data (@70")</strong></p>
-							<ul>
-								<li>Work TIme - 5-8 Minutes</li>
-								<li>Sealer Sandability - 30 Minutes</li>
-								<li>Sealer Paintability - 30 Minutes</li>
-							</ul>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/06-07.jpg')?>
+						<p>Remove the masking tape ASAP after sealer application</p>
+						<p><strong>Additional Tech Data (@70")</strong></p>
+						<ul>
+							<li>Work TIme - 5-8 Minutes</li>
+							<li>Sealer Sandability - 30 Minutes</li>
+							<li>Sealer Paintability - 30 Minutes</li>
+						</ul>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/06-info.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border qr">
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/06-info.jpg')?>
+						<div class="qr">
 							<div class="row column tech-support">
 								Tech Support: <?=\Html::anchor('http://www.lord.com','www.lord.com');?><br>
 								1-800-234-3876
 							</div>
 							<div class="row column">
-								<div class="float-left">
-									QR Code:<br>
-									Seam Sealing Video
+								<div class="clearfix tech-support-footer">
+									<div class="float-left">
+										QR Code:<br>
+										<?=\Html::anchor('https://www.youtube.com/watch?v=un9CrzQEU1M', 'Seam Sealing Video', array('target' => '_blank'));?>
+									</div>
+									<?=\Asset::img('body_shop/06-qr-01.jpg');?>
 								</div>
-								<?=\Asset::img('body_shop/06-qr-01.jpg', array('class' => 'float-right'));?>
+								
 							</div>
 							<div class="row column">
-								<div class="float-left">
-									QR Code:<br>
-									Controlled Flow Seam Sealer Technical Support
+								<div class="clearfix tech-support-footer">
+									<div class="float-left">
+										QR Code:<br>
+										<?=\Html::anchor('http://www.lord.com/products-and-solutions/adhesives/automotive-repair-adhesives/product.xml/339/2', 'Controlled Flow Seam Sealer Technical Support', array('target' => '_blank'));?>
+									</div>
+									<?=\Asset::img('body_shop/06-qr-02.jpg', array('class' => 'float-right'));?>
 								</div>
-								<?=\Asset::img('body_shop/06-qr-02.jpg', array('class' => 'float-right'));?>
 							</div>
 						</div>
 					</div>

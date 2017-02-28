@@ -39,77 +39,53 @@
 			<div class="medium-6 column">
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/08-01.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>HIGHLY RECOMMENDED</p>
-							<ul>
-								<li>Scan QR code in bottom right corner & watch video</li>
-								<li>Scan QR code to access tech sheet</li>
-							</ul>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/08-01.jpg')?>
+						<p>HIGHLY RECOMMENDED</p>
+						<ul>
+							<li>Scan QR code in bottom right corner & watch video</li>
+							<li>Scan QR code to access tech sheet</li>
+						</ul>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/08-02.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Remove original sealant materials from the roof ditch and sand surface with P180 grit</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/08-02.jpg')?>
+						<p>Remove original sealant materials from the roof ditch and sand surface with P180 grit</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/08-03.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Clean surfaces with RM 900 wax & grease remover, dry and blow off with an air blower</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/08-03.jpg')?>
+						<p>Clean surfaces with RM 900 wax & grease remover, dry and blow off with an air blower</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/08-04.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Prime surface and allow to dry per paint companies recommendation.</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/08-04.jpg')?>
+						<p>Prime surface and allow to dry per paint companies recommendation.</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #5</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/08-05.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Lightly sand surface with P400 grit or a red scuff pad</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/08-05.jpg')?>
+						<p>Lightly sand surface with P400 grit or a red scuff pad</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/08-06.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Blow off surface with an air blower</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/08-06.jpg')?>
+						<p>Blow off surface with an air blower</p>
 					</div>
 				</div>
 				
@@ -118,63 +94,54 @@
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #7</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/08-07.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Dispense #122EZ Self-Leveling Seam Sealer into roof ditch</p>
-							<p>Application tips available on video for this challenging install</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/08-07.jpg')?>
+						<p>Dispense #122EZ Self-Leveling Seam Sealer into roof ditch</p>
+						<p>Application tips available on video for this challenging install</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #8</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/08-08.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Allow seam sealer to dry approximately 45 minutes before paint application</p>
-							<p>If Sealer has cured longer than 2 hours, scuff the surface with a red scuff pad before paint application</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/08-08.jpg')?>
+						<p>Allow seam sealer to dry approximately 45 minutes before paint application</p>
+						<p>If Sealer has cured longer than 2 hours, scuff the surface with a red scuff pad before paint application</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/08-info.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border qr">
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/08-info.jpg')?>
+						<div class="qr">
 							<div class="row column tech-support">
 								Tech Support: <?=\Html::anchor('http://www.lord.com','www.lord.com');?><br>
 								1-800-234-3876
 							</div>
 							<div class="row column">
-								<div class="float-left">
-									QR Code:<br>
-									Self-Leveling Seam Sealing Video<br>
+								<div class="clearfix tech-support-footer">
+									<div class="qr-info">
+										QR Code:<br>
+										<?=\Html::anchor('https://www.youtube.com/watch?v=6qwPjDHWKd8', 'Self-Leveling Seam Sealing Video', array('target' => '_blank'));?>
+									</div>
+									<?=\Asset::img('body_shop/08-qr-01.jpg');?>
 								</div>
-								<?=\Asset::img('body_shop/08-qr-01.jpg', array('class' => 'float-right'));?>
 							</div>
 							<div class="row column">
-								<div class="float-left">
-									QR Code:<br>
-									Self-Leveling Seam Sealer Technical Support<br>
+								<div class="clearfix tech-support-footer">
+									<div class="qr-info">
+										QR Code:<br>
+										<?=\Html::anchor('http://www.lord.com/products-and-solutions/adhesives/automotive-repair-adhesives/product.xml/332/2', 'Self-Leveling Seam Sealer Technical Support', array('target' => '_blank'));?>
+									</div>
+									<?=\Asset::img('body_shop/08-qr-02.jpg');?>
 								</div>
-								<?=\Asset::img('body_shop/08-qr-02.jpg', array('class' => 'float-right'));?>
 							</div>
 						</div>
 					</div>
 				</div>
-				
 			</div>
 		</div>
-		
-		
 		<div class="row">
 			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <br><strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
 		</div>

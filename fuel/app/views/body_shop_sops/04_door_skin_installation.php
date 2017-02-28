@@ -39,59 +39,41 @@
 			<div class="medium-6 column">
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/04-01.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<ul>
-								<li>Remove rust, adhesive, e-coatings and galvanized coating from the flange area with a 50 grit disc</li>
-								<li>Straighten and align the door flange with a hammer & dolly</li>
-							</ul>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/04-01.jpg')?>
+						<ul>
+							<li>Remove rust, adhesive, e-coatings and galvanized coating from the flange area with a 50 grit disc</li>
+							<li>Straighten and align the door flange with a hammer & dolly</li>
+						</ul>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/04-02.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Prep the new door skin</p>
-							<ul>
-								<li>OEM Skin: Sand the e-coat with a red scuff pad</li>
-								<li>Degrease with RM 900 and dry</li>
-							</ul>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/04-02.jpg')?>
+						<p>Prep the new door skin</p>
+						<ul>
+							<li>OEM Skin: Sand the e-coat with a red scuff pad</li>
+							<li>Degrease with RM 900 and dry</li>
+						</ul>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/04-03.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Clean all bonding surfaces with RM900, dry and blow off with an air blower</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/04-03.jpg')?>
+						<p>Clean all bonding surfaces with RM900, dry and blow off with an air blower</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
-					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('body_shop/04-04.jpg')?>
-						</div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Before bonding, pre-fit the panels to ensure proper fit</p>
-							<p>Install sound deadening pads inside of new skin prior to adhering.</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/04-04.jpg')?>
+						<p>Before bonding, pre-fit the panels to ensure proper fit</p>
+						<p>Install sound deadening pads inside of new skin prior to adhering.</p>
 					</div>
 				</div>
 				
@@ -100,55 +82,46 @@
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #5</div>
-					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('body_shop/04-05.jpg')?>
-						</div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Apply a 3/8" bead of Metal Bonding Adhesive to the bare metal surfaces</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/04-05.jpg')?>
+						<p>Apply a 3/8" bead of Metal Bonding Adhesive to the bare metal surfaces</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
-					<div class="medium-2 column">
-						<div class="border">
-							<?=\Asset::img('body_shop/04-06.jpg')?>
-						</div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<ul>
-								<li>Properly position the new door skin</li>
-								<li>Clamp the frame and door skin together to hold alignment while rolling the hem flanges</li>
-								<li>Wipe away any excess adhesive</li>
-							</ul>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/04-06.jpg')?>
+						<ul>
+							<li>Properly position the new door skin</li>
+							<li>Clamp the frame and door skin together to hold alignment while rolling the hem flanges</li>
+							<li>Wipe away any excess adhesive</li>
+						</ul>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/04-info.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border qr">
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/04-info.jpg')?>
+						<div class="qr">
 							<div class="row column tech-support">
 								<p>The surface of exposed Metal Bonding Adhesive will remain tacky after it is cured. This tacky surface can be removed by sanding.</p>
-								Tech Support: <?=\Html::anchor('http://www.nortonautmotive.com','www.nortonautmotive.com');?><br>
 							</div>
 							<div class="row column">
-								<div class="float-left">
-									QR Code:<br>
-									Metal Bonding Video<br>
+								<div class="clearfix tech-support-footer">
+									Tech Support: <?=\Html::anchor('http://www.nortonautmotive.com','www.nortonautmotive.com');?><br>
+									<div class="qr-info">
+										QR Code:<br>
+										<?=\Html::anchor('https://www.youtube.com/watch?v=q7BkjDlBBsw', 'Metal Bonding Video', array('target' => '_blank'));?>
+									</div>
+									<?=\Asset::img('body_shop/04-qr.jpg');?>
 								</div>
-								<?=\Asset::img('body_shop/04-qr.jpg', array('class' => 'float-right'));?>
 							</div>
 						</div>
+					</div>
+					<div class="medium-8 column">
+						
 					</div>
 				</div>
 				

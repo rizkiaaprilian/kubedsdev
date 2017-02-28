@@ -39,99 +39,73 @@
 			<div class="medium-6 column">
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/09-01.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Scuff the surface with a red scuff pad & blow off dust with an air blower</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/09-01.jpg')?>
+						<p>Scuff the surface with a red scuff pad & blow off dust with an air blower</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/09-02.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Clean repair area with wax and grease remover & dry before applying seam sealer</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/09-02.jpg')?>
+						<p>Clean repair area with wax and grease remover & dry before applying seam sealer</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/09-03.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Adjust the air pressure on the spray gun to between 30-50 psi</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/09-03.jpg')?>
+						<p>Adjust the air pressure on the spray gun to between 30-50 psi</p>
 					</div>
 				</div>
-				
-				
-				
 			</div>
 			<div class="medium-6 column">
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/09-04.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Adjust the air knob adjustment on the spray gun (on side of gun) to achieve desired texture.</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/09-04.jpg')?>
+						<p>Adjust the air knob adjustment on the spray gun (on side of gun) to achieve desired texture.</p>
 					</div>
 				</div>
 				
 				<div class="row step">
 					<div class="medium-2 column">Step #5</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/09-05.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Once applied, HD seam sealers can be painted over immediately</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/09-05.jpg')?>
+						<p>Once applied, HD seam sealers can be painted over immediately</p>
 					</div>
 				</div>
 				
 				
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('body_shop/09-info.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border qr">
+					<div class="medium-10 column border">
+						<?=\Asset::img('body_shop/09-info.jpg')?>
+						<div class="qr">
 							<div class="row column tech-support">
 								<ul>
 									<li>HD Seam Sealer can also be used for Rubberized Undercoat applications</li>
 								</ul>
-								Tech Support: <?=\Html::anchor('http://www.lord.com','www.lord.com');?><br>
-								1-800-234-3876
 							</div>
 							<div class="row column">
-								<div class="float-left">
-									QR Code:<br>
-									Sprayable Seam Sealer Video<br>
+								<div class="tech-support-footer">
+									Tech Support: <?=\Html::anchor('http://www.lord.com','www.lord.com');?><br>
+									1-800-234-3876<br>
+									<div class="qr-info">
+										QR Code:<br>
+										<?=\Html::anchor('https://www.youtube.com/watch?v=WojDZr83CxE', 'Sprayable Seam Sealer Video', array('target' => '_blank'));?>
+									</div>
+									<?=\Asset::img('body_shop/09-qr.jpg');?>
 								</div>
-								<?=\Asset::img('body_shop/09-qr.jpg', array('class' => 'float-right'));?>
 							</div>
 						</div>
 					</div>
 				</div>
-				
 			</div>
 		</div>
-		
-		
 		<div class="row">
 			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <br><strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
 		</div>

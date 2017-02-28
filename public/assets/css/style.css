@@ -153,23 +153,40 @@ div .with-arrow .button.products {
     margin-top: 0.9375rem;
     margin-bottom: 0.9375rem;
 }
+.sop-body .step .border ul{
+    display: table-cell;
+    list-style-position: outside;
+    padding-left: 0.9375rem
+}
 .sop-body .step .border img {
     display: inline-block;
     width: 4rem;
     float: left;
     padding-right: 0.5rem;
 }
-
+.sop-body .step .border .hardener{
+    width: auto
+}
+.sop-body .step .border .qr img{
+    padding-right: 0;
+    float: right;
+    display: inline-block
+}
+.sop-body .step .border .qr .qr-info{
+    float: left
+}
 .sop-body .additional{
     background: #ccc;
     border : 1px solid #000;
     padding: 0.3125rem 0.1875rem;
 }
 .sop-body .qr{
-    padding: 0.625rem 0.9375rem 0.9375rem 0.625rem
+    padding: 0.625rem 0
 }
-.sop-body .tech-support{
-    margin-bottom: 1.875rem;
+.sop-body .tech-support-footer{
+    margin-left: 4rem;
+    padding-bottom: 0.3125rem;
+    padding-top: 0.3125rem
 }
 .sop-body .yellow{
     background: #FFF600
@@ -242,6 +259,13 @@ div .with-arrow .button.products {
     }
     .menu > li, .menu.horizontal > li{
         display: block;
+    }
+    .sop-body .step .border .qr img{
+        float: none;
+        display: block;
+    }
+    .sop-body .step .border .qr .qr-info{
+        float: none
     }
 }
 
