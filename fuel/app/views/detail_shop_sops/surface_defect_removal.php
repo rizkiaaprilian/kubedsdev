@@ -39,72 +39,48 @@
 			<div class="medium-6 column">
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('detail_shop/01-01.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Wash the painted surfaces with soap & water</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('detail_shop/01-01.jpg')?>
+						<p>Wash the painted surfaces with soap & water</p>
 					</div>
 				</div>
-				
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('detail_shop/01-02.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Inspect painted surfaces to identify defects</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('detail_shop/01-02.jpg')?>
+						<p>Inspect painted surfaces to identify defects</p>
 					</div>
 				</div>
-				
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('detail_shop/01-03.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<ul>
-								<li>Sand areas that are in need of buffing with P1500 grit</li>
-								<li>Sand areas with 3000 grit</li>
-								<li>Finish Sand all areas in need of buffing with 3000 grit<br>Use a 3/32 sander. Do Not Use an Interface Pad</li>
-							</ul>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('detail_shop/01-03.jpg')?>
+						<ul>
+							<li>Sand areas that are in need of buffing with P1500 grit</li>
+							<li>Sand areas with 3000 grit</li>
+							<li>Finish Sand all areas in need of buffing with 3000 grit<br>Use a 3/32 sander. Do Not Use an Interface Pad</li>
+						</ul>
 					</div>
 				</div>
-				
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('detail_shop/01-04.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<ul>
-								<li>Compound area using PG1000 with 3M foam buffing pad @ 1800 RPM</li>
-								<li>If required, start with wool and then move to Blue Foam</li>
-							</ul>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('detail_shop/01-04.jpg')?>
+						<ul>
+							<li>Compound area using PG1000 with 3M foam buffing pad @ 1800 RPM</li>
+							<li>If required, start with wool and then move to Blue Foam</li>
+						</ul>
 					</div>
 				</div>
-				
 			</div>
 			<div class="medium-6 column">
 				<div class="row step">
 					<div class="medium-2 column">Step #5</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('detail_shop/01-05.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<ul>
-								<li>Polish area with PF2500 compound and 3M polishing pad @ 1300 RPM</li>
-							</ul>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('detail_shop/01-05.jpg')?>
+						<ul>
+							<li>Polish area with PF2500 compound and 3M polishing pad @ 1300 RPM</li>
+						</ul>
 					</div>
 				</div>
 				<div class="row step">
@@ -114,55 +90,42 @@
 				</div>
 				<div class="row step">
 					<div class="medium-2 column"><strong>Optional</strong></div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('detail_shop/01-optional.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<ul>
-								<li>Polish area with SF4000 Compound using a 3M polishing pad @ 1100 RPM</li>
-							</ul>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('detail_shop/01-optional.jpg')?>
+						<ul>
+							<li>Polish area with SF4000 Compound using a 3M polishing pad @ 1100 RPM</li>
+						</ul>
 					</div>
 				</div>
-				
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('detail_shop/01-06.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border">
-							<p>Use Carbo Detailer Spray to clean up buffing residue</p>
-						</div>
+					<div class="medium-10 column border">
+						<?=\Asset::img('detail_shop/01-06.jpg')?>
+						<p>Use Carbo Detailer Spray to clean up buffing residue</p>
 					</div>
 				</div>
-				
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
-					<div class="medium-2 column">
-						<div class="border"><?=\Asset::img('detail_shop/01-info.jpg')?></div>
-					</div>
-					<div class="medium-8 column">
-						<div class="border qr">
-							<div class="row column tech-support">
-								Tech Support: <?=\Html::anchor('http://www.menzerna.com','www.mernzerna.com');?>
-							</div>
-							<div class="row column">
-								<div class="float-left">
-									QR Code:<br>
-									Menzerna Website<br>
+					<div class="medium-10 column border">
+						<?=\Asset::img('detail_shop/01-info.jpg')?>
+						<div class="qr">
+							<div class="clearfix tech-support-footer">
+								<div class="row column tech-support">
+									Tech Support: <?=\Html::anchor('http://www.menzerna.com','www.mernzerna.com', array('target' => '_blank'));?>
 								</div>
-								<?=\Asset::img('detail_shop/01-qr.jpg', array('class' => 'float-right'));?>
+								<div class="row column">
+									<div class="qr-info">
+										QR Code:<br>
+										<?=\Html::anchor('http://www.menzerna.com/', 'Menzerna Website', array('target' => '_blank'));?>
+									</div>
+									<?=\Asset::img('detail_shop/01-qr.jpg');?>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				
 			</div>
 		</div>
-		
-		
 		<div class="row">
 			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <br><strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
 		</div>
