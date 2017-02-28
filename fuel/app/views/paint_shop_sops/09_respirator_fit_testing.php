@@ -24,12 +24,12 @@
 						<li><span>SAS # 9401-05</span>- Nebulizer with labels</li>
 					</ul>
 				</div>
-				
+
 			</div>
 			<small>Respirator Fit Tests Should Be Conducted Annually.</small>
 		</div>
 	</div>
-	
+
 	<div class="sop-body">
 		<div class="row">
 			<div class="medium-6 column">
@@ -45,7 +45,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-4 column">
@@ -60,7 +60,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-4 column">
@@ -85,7 +85,7 @@
 				</div>
 			</div>
 			<div class="medium-6 column">
-				
+
 				<div class="row step">
 					<div class="medium-2 column">Step #5</div>
 					<div class="medium-4 column">
@@ -98,7 +98,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-2 column">
@@ -113,21 +113,21 @@
 							<div class="row column">
 								<div class="float-left">
 									QR Code:<br>
-									OSHA Link<br>
+									<?=\Html::anchor('https://www.osha.gov/pls/oshaweb/owadisp.show_document?p_table=STANDARDS&p_id=9783','OSHA Link');?><br>
 								</div>
 								<?=\Asset::img('paint_shop/09-qr-01.jpg', array('class' => 'float-right'))?>
 							</div>
 							<div class="row column">
 								<div class="float-left">
 									QR Code:<br>
-									Fit Test Video
+									<?=\Html::anchor('https://www.youtube.com/watch?v=qPqFC1-SjJ4','Fit Test Video');?>
 								</div>
 								<?=\Asset::img('paint_shop/09-qr-02.jpg', array('class' => 'float-right'))?>
 							</div>
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
 		<div class="row">

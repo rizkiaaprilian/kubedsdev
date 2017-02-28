@@ -1,5 +1,5 @@
 <div class="row column">
-	<div class="sop-header row">
+	<div class="body-shop-sop-header row">
 		<h3 class="text-center">Bumper Repair - Cosmetic</h3>
 		<div class="body">
 			<div class="row">
@@ -33,18 +33,22 @@
 			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
-
-	<div class="sop-body">
+	
+	<div class="body-shop-sop-body">
 		<div class="row">
 			<div class="medium-6 column">
 				<div class="row step">
 					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
-						<?=\Asset::img('body_shop/01-01.jpg')?>
-						<p>Pre-clean with soap & water. Final pre-clean with RM 900</p>
+					<div class="medium-2 column">
+						<div class="border"><?=\Asset::img('body_shop/01-01.jpg')?></div>
+					</div>
+					<div class="medium-8 column">
+						<div class="border">
+							<p>Pre-clean with soap & water. Final pre-clean with RM 900</p>
+						</div>
 					</div>
 				</div>
-
+				
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-2 column">
@@ -59,7 +63,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-2 column">
@@ -71,7 +75,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
 					<div class="medium-2 column">
@@ -85,7 +89,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 			</div>
 			<div class="medium-6 column">
 				<div class="row step">
@@ -101,7 +105,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-2 column">
@@ -115,7 +119,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<div class="row step">
 					<div class="medium-2 column">Step #7</div>
 					<div class="medium-2 column">
@@ -132,7 +136,7 @@
 						</div>
 					</div>
 				</div>
-
+				
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-2 column">
@@ -154,11 +158,11 @@
 						</div>
 					</div>
 				</div>
-
+				
 			</div>
 		</div>
-
-
+		
+		
 		<div class="row">
 			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <br><strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
 		</div>

@@ -30,6 +30,14 @@
 		</div>
 		<div class="row">
 			<div class="small-3 column">
+				<label for="passwrd">Password <span class="astrict">*</span></label>
+			</div>
+			<div class="small-9 column">
+				<input type="text" class="" name="passwrd" id="passwrd"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="small-3 column">
 				<label for="status_id">Status</label>
 			</div>
 			<div class="small-9 column">
@@ -60,7 +68,7 @@
 				}
 			});
 		});
-		
+
 		$('#reset').on('click', function(){
 			$('.callout.alert').remove();
 			$.post(baseUrl + 'admin/user/reset.json', $('#user_form').serialize(), function(json){

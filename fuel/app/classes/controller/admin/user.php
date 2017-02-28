@@ -16,15 +16,29 @@ class User extends \Controller_Rest {
 		if (($user = \Model\User::find_by_pk($post['id'])) === null) {
 			$user = \Model\User::forge();
 		}
-		$user->set($post);
-		$user->validation()->add_callable($user);
-		if ($user->validates()) {
+		$passwrd = trim(\Input::post('passwrd'));
+		// If password not empty then hash before save
+		if ($passwrd != '') {
+			$post['passwrd'] = \Authlite::instance('auth_user')->hash($passwrd);
+		}
+		if ($user->is_new()) {
+			$user->set($post);
+			$user->validation()->add_callable($user);
+			if ($user->validates()) {
+				$result = $user->save();
+				return $this->response(array('status' => 'OK'));
+			}
+			return $this->response(array('status' => 'FAIL', 'msg' => $user->validation()->show_errors()));
+		} else {
+			if ($passwrd != '') {
+				$user->passwrd = $post['passwrd'];
+			}
+			$user->status_id = $post['status_id'];
 			$result = $user->save();
 			return $this->response(array('status' => 'OK'));
 		}
-		return $this->response(array('status' => 'FAIL', 'msg' => $user->validation()->show_errors()));
 	}
-	
+
 	public function post_reset() {
 		return $this->response(\Model\User::forge()->forgot_password(\Input::post('data')));
 	}

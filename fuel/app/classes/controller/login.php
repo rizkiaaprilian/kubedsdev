@@ -19,7 +19,7 @@ class Login extends Auth {
 		$user = $authlite->login($post['email'], $post['password'], isset($post['remember']));
 		if (!$user) {
 			// Try userid login
-			$authlite->usercol = 'user_id';
+			$authlite->usercol('user_id');
 			$user = $authlite->login($post['userid'], $post['password'], isset($post['remember']));
 		}
 		if (!$user) {

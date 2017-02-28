@@ -22,7 +22,6 @@ class User extends \Model_Crud {
 	protected static $_defaults =	array('id' => null, 'user_id' => null, 'email' => '', 'passwrd' => '',	'bus_name' => '',
 		'token' => '', 'session' => '', 'created_at' => '', 'updated_at' => '', 'last_login' => '', 'last_ip' => '',
 		'status_id' => 0);
-	//protected static $_rules = array('user_id' => 'required|unique_id', 'email' => 'valid_email', 'bus_name' => 'required');
 	protected static $_rules = array('user_id' => 'required|unique_id','email' => 'required|valid_email', 'bus_name' => 'required');
 	protected static $_labels = array('user_id' => 'User ID', 'email' => 'Email', 'bus_name' => 'Company');
 	protected $_status = array(0 => 'New', 'Active', 'Password', self::S_HOLD => 'Hold', self::S_ARCHIVE => 'Archived');
