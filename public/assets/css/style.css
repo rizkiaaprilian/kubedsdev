@@ -306,3 +306,12 @@ div .with-arrow .button.products {
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+
+/** custom datatable footer pagination */
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding: 0
+}
+.dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_paginate{
+    text-align: left
+}
