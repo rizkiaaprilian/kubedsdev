@@ -1,4 +1,4 @@
-<div class="row column">
+<div class="column">
 	<h3>PARTS CARTS SOP</h3>
 	<p>Once appropriate photos of the vehicle have been taken the technician places all parts on the parts cart organized by R&R and R&I. Label the parts cart by attaching a copy of the window sticker from the management system. Replace all broken clips, fasteners and hardware broken during disassembly from in house inventory or make a list of clips needed to be ordered. Label all parts with the RO number.</p>
 	<div class="text-center"><?=\Asset::img('cart-sop.jpg', array('alt' => 'Cart SOP'));?></div>

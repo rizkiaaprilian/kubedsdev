@@ -13,6 +13,6 @@
 		<li><?=\Html::anchor('#', 'Paint Shop Processes', array('id' => 'process'));?></li>
 	</ol>
 </div>
-<div class="row column" id="content">
-	<!--not yet available-->
+<div id="content" class="row">
+
 </div>

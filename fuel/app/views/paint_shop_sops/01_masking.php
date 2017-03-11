@@ -1,4 +1,4 @@
-<div class="row column">
+<div class="column">
 	<div class="sop-header row">
 		<h3 class="text-center">Masking</h3>
 		<div class="body">
@@ -34,7 +34,7 @@
 			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
-	
+
 	<div class="sop-body">
 		<div class="row">
 			<div class="medium-6 column">
@@ -46,7 +46,7 @@
 						<p>Blow out door jambs prior to  applying foam tape</p>
 					</div>
 				</div>
-				
+
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-10 column border">
@@ -54,7 +54,7 @@
 						<p>Apply foam tape to door jambs and any other gaps that need protection</p>
 					</div>
 				</div>
-				
+
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-10 column border">
@@ -87,7 +87,7 @@
 						</ul>
 					</div>
 				</div>
-				
+
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-10 column border">
@@ -95,7 +95,7 @@
 						<p>Blow off area and tack</p>
 					</div>
 				</div>
-				
+
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-10 column border">

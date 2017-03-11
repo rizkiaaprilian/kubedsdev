@@ -14,7 +14,7 @@
 		<li><?=\Html::anchor('', 'Additional Forms', array('id' => 'forms'));?></li>
 	</ol>
 </div>
-<div class="row column" id="content">
+<div id="content" class="row">
 
 </div>
 <script>

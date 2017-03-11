@@ -25,7 +25,7 @@
 		<li><?=\Html::anchor('', 'Sanding System (Body)', array('id' => 'sanding_system'));?></li>
 	</ol>
 </div>
-<div class="row column" id="content">
+<div id="content" class="row">
 
 </div>
 <script>

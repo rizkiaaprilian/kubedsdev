@@ -15,7 +15,7 @@
 		<li><?=\Html::anchor('', 'Vehicle Staging For Repair SOP', array('id' => 'staging'));?></li>
 	</ol>
 </div>
-<div class="row column" id="content">
+<div id="content" class="row">
 
 </div>
 <script>

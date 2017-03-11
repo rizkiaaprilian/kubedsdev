@@ -1,4 +1,4 @@
-<div class="row column">
+<div class="column">
 	<h3>VEHICLE STAGING FOR REPAIR SOP</h3>
 	<p>Once the estimate has been completed the estimator will release the vehicle. The Disassembly tech will weatherproof the vehicle and park in the "waiting for parts" area and the parts carts will be moved to the parts department by the disassembly tech. The tech then takes an empty cart back to disassembly area if one is available. The vehicle will remain parked until the complete parts order has been received. At this time the vehicle will be dispatched for repair.</p>
 	<p>Vehicles that require no parts will be dispatched to the first available technician.</p>

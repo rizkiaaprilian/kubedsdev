@@ -23,7 +23,7 @@
 			</div>
 		</header>
 
-		<div id="main_content" class="row">
+		<div id="main_content">
 			<?=$content;?>
 		</div>
 		<footer id="footer" class="row">

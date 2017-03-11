@@ -1,4 +1,4 @@
-<div class="row column">
+<div class="column">
 	<h3>DISASSEMBLY FOR REPAIR SOP</h3>
 	<p>Under the direction of the Estimator, the Disassembly Specialist disassembles the entire damaged area and blend panes to gain visual access and to the point where further disassembly will not be required in any subsequent repair stage. Throughout this stage the Estimator takes pictures showing all damage and broken hardware. The Disassembly Specialist places all removed parts (including small parts such as clips and fasteners) in an organized manner on the floor or table. Any missed operations will be marked in	yellow.</p>
 	<p>The tech should flag the vehicle 20 to 30 minutes before completing the disassembly to signal that the repair plan needs to be completed.</p>

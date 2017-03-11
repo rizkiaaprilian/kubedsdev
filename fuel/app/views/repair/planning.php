@@ -1,4 +1,4 @@
-<div class="row column">
+<div class="column">
 	<h3>REPAIR PLANNING SOP</h3>
 	<p>When the vehicle has been sufficiently disassembled to gain visual access to all damage, and pictures of all damaged areas have been taken, the Estimator writes a meticulous repair plan adhering to applicable insurance company guidelines. Roles and responsibilities for the following tasks should be defined: drive-in estimates, tow-ins, drop-offs and possible total losses. Please note, possible totals should be scrutinized if at all possible to prevent unnecessary disassembly.</p>
 	<div class="text-center"><?=\Asset::img('planning-sop.jpg', array('alt' => 'Planning SOP'));?></div>

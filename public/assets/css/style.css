@@ -35,6 +35,13 @@ footer {
   border-top: 1px solid #cacaca;
   border-bottom: 1px solid #cacaca;
 }
+.menu li {
+	  display: inline-block;
+}
+.menu li a {
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+}
 .menu a:hover {
 	color: #000000;
 }
@@ -67,6 +74,11 @@ div .with-arrow .button.sop {
 }
 div .with-arrow .button.products {
 	background-color: #f3b61b;
+}
+/* Used for home page medium */
+.column.with-arrow.inline div {
+	display: inline-block;
+	width: 40%;
 }
 .page-title .page-navigation{
     text-align: right;

@@ -1,5 +1,5 @@
-<div class="row column">
-	<div class="sop-header row">
+<div class="column">
+	<div class="sop-header">
 		<h3 class="text-center">Bumper Repair - Cosmetic</h3>
 		<div class="body">
 			<div class="row">
@@ -29,11 +29,10 @@
 						Safety Glasses
 					</div>
 				</div>
+				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 			</div>
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
-
 	<div class="sop-body">
 		<div class="row">
 			<div class="medium-6 column">
@@ -44,7 +43,6 @@
 						<p>Pre-clean with soap & water. Final pre-clean with RM 900</p>
 					</div>
 				</div>
-
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-10 column border">
@@ -55,7 +53,6 @@
 						</ul>
 					</div>
 				</div>
-
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-10 column border">
@@ -63,7 +60,6 @@
 						<p>Clean off repair area with an air blower</p>
 					</div>
 				</div>
-
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
 					<div class="medium-10 column border">
@@ -71,7 +67,6 @@
 						<p>Mix U-POL#7061 and apply to repair area</p>
 					</div>
 				</div>
-
 			</div>
 			<div class="medium-6 column">
 				<div class="row step">
@@ -81,7 +76,6 @@
 						<p>Spread U-<strong>Pol#7061 Stronghold Plastic Filler</strong></p>
 					</div>
 				</div>
-
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-10 column border">
@@ -89,7 +83,6 @@
 						<p>Allow to dry approximately 15-20 minutes</p>
 					</div>
 				</div>
-
 				<div class="row step">
 					<div class="medium-2 column">Step #7</div>
 					<div class="medium-10 column border">
@@ -100,7 +93,6 @@
 						</ul>
 					</div>
 				</div>
-
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-10 column border">
@@ -124,7 +116,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="column">
 			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <br><strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
 		</div>
 	</div>

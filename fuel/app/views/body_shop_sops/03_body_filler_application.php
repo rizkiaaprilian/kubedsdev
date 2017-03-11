@@ -1,5 +1,5 @@
-<div class="row column">
-	<div class="sop-header row">
+<div class="column">
+	<div class="sop-header">
 		<h3 class="text-center">Body Filler Application</h3>
 		<div class="body">
 			<div class="row">
@@ -33,13 +33,12 @@
 						Disposable Gloves<br>
 						Safety Glasses
 					</div>
+					<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 				</div>
 			</div>
-			
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+
 		</div>
 	</div>
-	
 	<div class="sop-body">
 		<div class="row">
 			<div class="medium-6 column">
@@ -50,7 +49,6 @@
 						<p>Clean the repair area with RM 900 pre-cleano & dry</p>
 					</div>
 				</div>
-				
 				<div class="row step">
 					<div class="medium-2 column">Step #2</div>
 					<div class="medium-10 column border">
@@ -60,7 +58,6 @@
 						</ul>
 					</div>
 				</div>
-				
 				<div class="row step">
 					<div class="medium-2 column">Step #3</div>
 					<div class="medium-10 column border">
@@ -72,7 +69,6 @@
 						</ul>
 					</div>
 				</div>
-				
 				<div class="row step">
 					<div class="medium-2 column">Step #4</div>
 					<div class="medium-10 column border">
@@ -90,7 +86,6 @@
 						<p>Spread FE filler onto repair area and let dry</p>
 					</div>
 				</div>
-				
 				<div class="row step">
 					<div class="medium-2 column">Step #6</div>
 					<div class="medium-10 column border">
@@ -101,7 +96,6 @@
 				</div>
 			</div>
 			<div class="medium-6 column">
-				
 				<div class="row step">
 					<div class="medium-2 column">Step #7</div>
 					<div class="medium-10 column border">
@@ -136,7 +130,6 @@
 						<p>Check for pin holes</p>
 					</div>
 				</div>
-				
 				<div class="row step">
 					<div class="medium-2 column">Info</div>
 					<div class="medium-10 column border">
@@ -157,12 +150,10 @@
 						</div>
 					</div>
 				</div>
-				
+
 			</div>
 		</div>
-		
-		
-		<div class="row">
+		<div class="column">
 			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <br><strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
 		</div>
 	</div>

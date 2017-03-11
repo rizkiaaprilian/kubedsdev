@@ -28,7 +28,36 @@
 		<?=\Asset::img('home-01.png');?><br>8. DELIVER VEHICLE<br><a href="mypage/delivery" class="button process">Process</a>
 	</div>
 </div>
-<div class="row column show-for-medium text-center">
+<div class="row show-for-medium-only text-center">
+	<div class="column with-arrow inline">
+		<div><?=\Asset::img('home-01.png');?><br>1. CHECK IN VEHICLE<br><a href="mypage/checkin" class="button process">Process</a></div>
+		<span class="fi-arrow-right"></span>
+		<div><?=\Asset::img('home-02.png');?><br>2. OFFICE<br><a href="mypage/office" class="button process">Process</a></div>
+	</div>
+	<div class="column with-arrow"><br><span class="fi-arrow-down"></span><br></div>
+	<div class="column with-arrow">
+		3. REPAIR PLANNING/DISASSEMBLY &amp; MAPPING<br>
+		<?=\Asset::img('home-02.png');?><span class="fi-arrow-left"></span><a href="mypage/repair" class="button process">Process</a><span class="fi-arrow-right"></span><?=\Asset::img('home-03.png');?><br><span class="fi-arrow-down"></span>
+	</div>
+	<div class="column with-arrow">
+		<?=\Asset::img('home-03.png');?><br>4. BODY SHOP<br><a href="body-shop" class="button sop">BODY SOPs</a> <a href="body-shop/sops" class="button process">Process</a> <a href="body-shop/products" class="button products">APPROVED PRODUCTS</a><br><span class="fi-arrow-down"></span>
+	</div>
+	<div class="column with-arrow">
+		<?=\Asset::img('home-03.png');?><br>5. PAINT SHOP<br><a href="paint-shop" class="button sop">PAINT SOPs</a> <a href="paint-shop/sops" class="button process">Process</a> <a href="paint-shop/products" class="button products">APPROVED PRODUCTS</a><br><span class="fi-arrow-down"></span>
+	</div>
+	<div class="column with-arrow">
+		<?=\Asset::img('home-03.png');?><br>6. REASSEMBLY<br><a href="reassembly" class="button sop">REASSEMBLY SOPs</a><br><span class="fi-arrow-down"></span>
+	</div>
+	<div class="column with-arrow">
+		<?=\Asset::img('home-03.png');?><br>7. DETAIL SHOP<br><a href="detail-shop" class="button sop">DETAIL SOPs</a> <a href="detail-shop/sops" class="button process">Process</a> <a href="detail-shop/products" class="button products">APPROVED PRODUCTS</a><br><span class="fi-arrow-down"></span>
+	</div>
+	<div class="column with-arrow inline">
+		<div><?=\Asset::img('home-02.png');?><br>OFFICE<br><a href="mypage/office" class="button process">Process</a></div>
+		<span class="fi-arrow-right"></span>
+		<div><?=\Asset::img('home-01.png');?><br>8. DELIVER VEHICLE<br><a href="mypage/delivery" class="button process">Process</a></div>
+	</div>
+</div>
+<div class="row column show-for-large text-center">
 	<?=\Asset::img('kube-home.png', array('usemap' => '#homemap'));?>
 	<map name="homemap">
 		<area shape="rect" coords="33,216,128,240" href="mypage/checkin" />

@@ -1,4 +1,4 @@
-<div class="row column">
+<div class="column">
 	<h3>Check-In Processes</h3>
 	<p>The success of today’s collision center relies on fast process times. The first critical step is vehicle intake. When a damaged vehicle arrives for repair, the teams focus must be to onboard the customer, move the vehicle through to Disassembly and place a complete parts order in the shortest amount of time possible.</p>
 	<hr>
