@@ -14,7 +14,7 @@
 		<li><?=\Html::anchor('', 'Surface Defect Removal', array('id' => 'surface'));?></li>
 	</ol>
 </div>
-<div class="row column" id="content">
+<div class="row" id="content">
 
 </div>
 <script>

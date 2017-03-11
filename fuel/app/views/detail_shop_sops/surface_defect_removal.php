@@ -1,12 +1,12 @@
-<div class="row column">
-	<div class="sop-header row">
+<div class="column">
+	<div class="sop-header">
 		<h3 class="text-center">Surface Defect Removal</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>3M</span>- 1500, 6" TRIZAK Discs</li>
 						<li><span>3M</span>- 3000 grit, TRIZAK 6" Discs</li>
@@ -16,21 +16,21 @@
 						<li><span>Menzerna #PG1000</span></li>
 					</ul>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>3M # 05738</span>- 8" Foam Pad</li>
 						<li><span>Tork # 440278A</span>- Tork Blue Jumbo</li>
 					</ul>
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					<div class="text-center safety">
 						SAFETY<br>
 						Safety Glasses<br>
 						Disposable Gloves
 					</div>
 				</div>
+				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 			</div>
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	
