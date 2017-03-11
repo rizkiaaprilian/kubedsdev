@@ -1,12 +1,12 @@
-<div class="row column">
-	<div class="sop-header row">
+<div class="column">
+	<div class="sop-header">
 		<h3 class="text-center">Sanding System (Blends)</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>BASF RM 900</span>- Pre-Cleano</li>
 						<li><span>Norton</span>- Color Prep Gray Scuff Pads</li>
@@ -15,14 +15,14 @@
 						<li><span>3M</span>- 1500 Grit 6" Film Discs</li>
 					</ul>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>Norton</span>- Soft DA Pad</li>
 						<li><span>Norton</span>- 6" Interface Pad</li>
 						<li><span>Norton</span>- 800 Grit 6" sanding disc</li>
 					</ul>
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					<div class="text-center safety">
 						SAFETY<br>
 						P100 or N95 Dust Masks<br>
@@ -30,8 +30,8 @@
 						Safety Glasses
 					</div>
 				</div>
+				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 			</div>
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	

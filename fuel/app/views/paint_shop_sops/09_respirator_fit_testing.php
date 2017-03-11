@@ -1,23 +1,23 @@
-<div class="row column respirator-fit-testing">
-	<div class="sop-header row">
+<div class="column respirator-fit-testing">
+	<div class="sop-header">
 		<h3 class="text-center">Respirator Fit Testing</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>SAS # 9401-01</span>- Fit Test Kit</li>
 						<li><span>SAS # 8661-92</span>- Medium Disposable Respirator</li>
 						<li><span>SAS # 8661-93</span>- Large Disposable Respirator</li>
 					</ul>
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-6 large-2 column">
 					Replacement Fit Test Products:
 					<div class="text-center"><?=\Asset::img('paint_shop/09-00.jpg');?></div>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-12 large-4 column">
 					<ul class="no-bullet">
 						<li><span>SAS # 9401-03</span>- Sensitivity Solution</li>
 						<li><span>SAS # 9401-04</span>- Bitrex Solution Refill</li>

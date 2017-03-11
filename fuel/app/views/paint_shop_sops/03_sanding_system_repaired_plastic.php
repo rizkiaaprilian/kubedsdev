@@ -1,26 +1,26 @@
-<div class="row column">
-	<div class="sop-header row">
+<div class="column">
+	<div class="sop-header">
 		<h3 class="text-center">Sanding System (Repaired Plastic)</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>Norton/Carbo</span>- 320 Grit 6" DA</li>
 						<li><span>Norton</span>- 320 Grit Grip-On Sheet Roll</li>
 						<li><span>Norton</span>- 240 Griit 6" DA</li>
 					</ul>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>Norton</span>- 800 Grit Soft Roll sand paper</li>
 						<li><span>Norton</span>- 6" soft density pad</li>
 						<li><span>Norton</span>- 400 Grit 6" DA</li>
 					</ul>
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					<div class="text-center safety">
 						SAFETY<br>
 						P100 or N95 Dust Masks<br>
@@ -28,8 +28,8 @@
 						Safety Glasses
 					</div>
 				</div>
+				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 			</div>
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	

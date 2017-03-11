@@ -1,12 +1,12 @@
-<div class="row column">
-	<div class="sop-header row">
+<div class="column">
+	<div class="sop-header">
 		<h3 class="text-center">Sanding System (Prep)</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>Carbo # 99308</span>- Preppers 6" Soft Density Backup</li>
 						<li><span>Tork # 192479</span>- Specialist Wipes</li>
@@ -15,7 +15,7 @@
 						<li><span>Norton</span>- 400 grit Sheet Roll</li>
 					</ul>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>Norton</span>- Color Prep Gray Scuff Pads</li>
 						<li><span>Norton</span>- 400 Grit 6" DA Sand Paper</li>
@@ -24,7 +24,7 @@
 						<li><span>Norton</span>- 320 Grit 6" DA Sand Paper</li>
 					</ul>
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					<div class="text-center safety">
 						SAFETY<br>
 						P100 or N95 Dust Masks<br>
@@ -32,8 +32,8 @@
 						Safety Glasses
 					</div>
 				</div>
+				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 			</div>
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	

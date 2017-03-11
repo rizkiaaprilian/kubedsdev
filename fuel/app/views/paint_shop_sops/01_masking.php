@@ -1,12 +1,12 @@
 <div class="column">
-	<div class="sop-header row">
+	<div class="sop-header">
 		<h3 class="text-center">Masking</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>BASF RM 900</span>- Pre-Cleano</li>
 						<li><span>Tork # 192479</span>- Wipers (Rolls)</li>
@@ -16,7 +16,7 @@
 						<li><span>Norton # 03345</span>- Blue Sheeting</li>
 					</ul>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>3M</span>- Trim Tape</li>
 						<li><span>Norton</span>- 36" White Masking Paper</li>
@@ -24,14 +24,14 @@
 						<li><span>FBS</span>- Pro Masking 6" Paper</li>
 					</ul>
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					<div class="text-center safety">
 						SAFETY<br>
 						Disposable Gloves
 					</div>
 				</div>
+				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 			</div>
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 

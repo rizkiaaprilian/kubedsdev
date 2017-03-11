@@ -1,9 +1,9 @@
-<div class="row column sata-3-stage-filter-maintenance">
-	<div class="sop-header row">
+<div class="column sata-3-stage-filter-maintenance">
+	<div class="sop-header">
 		<h3 class="text-center">SATA 3 Stage Filter Maintenance</h3>
 	</div>
 	
-	<div class="row column">
+	<div class="row">
 		<div class="medium-6 column">
 			<div class="text-center"><?=\Asset::img('paint_shop/05-01.jpg')?></div>
 			<div class="box">
@@ -50,7 +50,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row column">
 			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <br><strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
 		</div>
 	</div>

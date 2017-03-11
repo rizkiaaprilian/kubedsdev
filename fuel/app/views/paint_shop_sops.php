@@ -23,7 +23,7 @@
 		<li><?=\Html::anchor('', 'Respirator Fit Testing', array('id' => 'respirator'));?></li>
 	</ol>
 </div>
-<div class="row column" id="content">
+<div class="row" id="content">
 
 </div>
 <script>

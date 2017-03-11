@@ -1,20 +1,20 @@
-<div class="row column spray-gun">
-	<div class="sop-header row">
+<div class="column spray-gun">
+	<div class="sop-header">
 		<h3 class="text-center">Spray Gun Cleaning</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>SATA # 48173</span>- Gun Lube</li>
 						<li><span>Tork # 440278A</span>- Wipers</li>
 					</ul>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					<div class="text-center safety">
 						SAFETY<br>
 						Safety Glasses<br>
@@ -22,8 +22,8 @@
 						Disposable Gloves
 					</div>
 				</div>
+				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 			</div>
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	
