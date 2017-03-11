@@ -29,31 +29,31 @@
 						Disposable Gloves
 					</div>
 				</div>
-				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('detail_shop/01-01.jpg')?>
 						<p>Wash the painted surfaces with soap & water</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('detail_shop/01-02.jpg')?>
 						<p>Inspect painted surfaces to identify defects</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('detail_shop/01-03.jpg')?>
 						<ul>
 							<li>Sand areas that are in need of buffing with P1500 grit</li>
@@ -63,8 +63,8 @@
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('detail_shop/01-04.jpg')?>
 						<ul>
 							<li>Compound area using PG1000 with 3M foam buffing pad @ 1800 RPM</li>
@@ -73,10 +73,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('detail_shop/01-05.jpg')?>
 						<ul>
 							<li>Polish area with PF2500 compound and 3M polishing pad @ 1300 RPM</li>
@@ -84,13 +84,11 @@
 					</div>
 				</div>
 				<div class="row step">
-					<div class="column">
-						<div class="additional"><strong>If additional polishing is needed</strong></div>
-					</div>
+					<div class="additional"><strong>If additional polishing is needed</strong></div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column"><strong>Optional</strong></div>
-					<div class="medium-10 column border">
+					<div class="large-2 column"><strong>Optional</strong></div>
+					<div class="large-10 column border">
 						<?=\Asset::img('detail_shop/01-optional.jpg')?>
 						<ul>
 							<li>Polish area with SF4000 Compound using a 3M polishing pad @ 1100 RPM</li>
@@ -98,15 +96,15 @@
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('detail_shop/01-06.jpg')?>
 						<p>Use Carbo Detailer Spray to clean up buffing residue</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('detail_shop/01-info.jpg')?>
 						<div class="qr">
 							<div class="clearfix tech-support-footer">
