@@ -16,7 +16,7 @@
 		<?=\Asset::img('home-03.png');?><br>5. PAINT SHOP<br><a href="paint-shop" class="button sop">PAINT SOPs</a> <a href="paint-shop/sops" class="button process">Process</a> <a href="paint-shop/products" class="button products">APPROVED PRODUCTS</a><br><span class="fi-arrow-down"></span>
 	</div>
 	<div class="column with-arrow">
-		<?=\Asset::img('home-03.png');?><br>6. REASSEMBLY<br><a href="reassembly" class="button sop">REASSEMBLY SOPs</a><br><span class="fi-arrow-down"></span>
+		<?=\Asset::img('home-03.png');?><br>6. REASSEMBLY<br><a href="mypage/reassembly" class="button sop">REASSEMBLY SOPs</a><br><span class="fi-arrow-down"></span>
 	</div>
 	<div class="column with-arrow">
 		<?=\Asset::img('home-03.png');?><br>7. DETAIL SHOP<br><a href="detail-shop" class="button sop">DETAIL SOPs</a> <a href="detail-shop/sops" class="button process">Process</a> <a href="detail-shop/products" class="button products">APPROVED PRODUCTS</a><br><span class="fi-arrow-down"></span>
@@ -46,7 +46,7 @@
 		<?=\Asset::img('home-03.png');?><br>5. PAINT SHOP<br><a href="paint-shop" class="button sop">PAINT SOPs</a> <a href="paint-shop/sops" class="button process">Process</a> <a href="paint-shop/products" class="button products">APPROVED PRODUCTS</a><br><span class="fi-arrow-down"></span>
 	</div>
 	<div class="column with-arrow">
-		<?=\Asset::img('home-03.png');?><br>6. REASSEMBLY<br><a href="reassembly" class="button sop">REASSEMBLY SOPs</a><br><span class="fi-arrow-down"></span>
+		<?=\Asset::img('home-03.png');?><br>6. REASSEMBLY<br><a href="mypage/reassembly" class="button sop">REASSEMBLY SOPs</a><br><span class="fi-arrow-down"></span>
 	</div>
 	<div class="column with-arrow">
 		<?=\Asset::img('home-03.png');?><br>7. DETAIL SHOP<br><a href="detail-shop" class="button sop">DETAIL SOPs</a> <a href="detail-shop/sops" class="button process">Process</a> <a href="detail-shop/products" class="button products">APPROVED PRODUCTS</a><br><span class="fi-arrow-down"></span>
