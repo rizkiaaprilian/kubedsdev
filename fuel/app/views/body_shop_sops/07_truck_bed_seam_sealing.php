@@ -125,7 +125,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="column">
 			<small><em>The suggested procedure on this page is a summary of the manufacturer's procedure. For complete details, <br><strong>review the manufacturer's instructions that accompany the products and/or that can be found at their websites.</strong></em></small>
 		</div>
 	</div>
