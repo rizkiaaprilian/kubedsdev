@@ -27,67 +27,66 @@
 						Disposable Gloves
 					</div>
 				</div>
-				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/10-01.jpg')?>
 						<p>Clean the area with soap & water then dry</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/10-02.jpg')?>
 						<p>Scuff w/ red scuff pad & blow off dust with an air blower</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/10-03.jpg')?>
 						<p>Clean w/ RM 900 cleaner and dry thoroughly</p>
 					</div>
 				</div>
 			</div>
-			<div class="medium-6 column">
-				
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/10-04.jpg')?>
 						<p>Adjust the air pressure on the spray gun to between 30-50 psi.</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/10-05.jpg')?>
 						<p>Adjust the air knob adjustment on the spray gun (on side of gun) to acvhieve desired texture</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/10-06.jpg')?>
 						<p>Once applied, HD seam sealers can be painted over immediately if desired</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/10-info.jpg')?>
 						<div class="qr">
 							<div class="row column tech-support">

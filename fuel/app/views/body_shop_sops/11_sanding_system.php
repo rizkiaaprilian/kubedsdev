@@ -30,17 +30,17 @@
 						Disposable Gloves
 					</div>
 				</div>
-				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-01.jpg')?>
 						<p>Clean all areas prior to sanding using soap and water</p>
 						<p>Prior to sanding and grinding clean with RM 900</p>
@@ -48,8 +48,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-02.jpg')?>
 						<ul>
 							<li>Grind welds with 36 grit or 50 grit (preferable 50 grit)</li>
@@ -59,8 +59,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-03.jpg')?>
 						<p>Prep sanding prior to Body Filler</p>
 						<p>On Steel - Use 80 Grit E Weight 8" Disc</p>
@@ -68,8 +68,8 @@
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-04.jpg')?>
 						<p>Sanding (1st cut) on Body Filler</p>
 						<p>Use 80 Grit E weight (Heavy Weight Backing)</p>
@@ -77,8 +77,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-05.jpg')?>
 						<p><strong>Sanding (1st cut) on Putty</strong></p>
 						<p>80 Grit B weight (Light weight backing)</p>
@@ -87,8 +87,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-06.jpg')?>
 						<p><strong>Sanding (2nd cut) on filler/putty use 120 Grit File Strip</strong></p>
 						<p>Use a firm Block or Board (Hand)</p>
@@ -97,11 +97,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="medium-6 column">
-				
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #7</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #7</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-07.jpg')?>
 						<p><strong>Body men to Back Sand repair area, starting with 120 Grit</strong></p>
 						<p>6" DA, finishing with 180 Grit 6" DA</p>
@@ -110,8 +109,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #8</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #8</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-08.jpg')?>
 						<p><strong>Body men to top sand filler / putty surface with 180 Grit DA</strong></p>
 						<p>DA Pad to be a firm Pad</p>
@@ -120,23 +119,23 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #9</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #9</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-09.jpg')?>
 						<p>Blow off repair area-thoroughly inspect work for hi/low areas, pinholes and to make sure coarse sand scratches from repair work are fully removed</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #10</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #10</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-10.jpg')?>
 						<p>Prep department takes bodywork from this point on. Prep department will not be over-sanding bodywork prior to priming - bodywork must be 100%</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/11-recap.jpg')?>
 						<p>RECAP</p>
 						<div class="row column">

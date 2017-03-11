@@ -29,58 +29,58 @@
 						Safety Glasses
 					</div>
 				</div>
-				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/07-01.jpg')?>
 						<p>Clean surface with RM 900 wax & grease remover, dry and blow off with an air blower.</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/07-02.jpg')?>
 						<p>Prep & prime all bare metal surfaces and allow to dry per paint companies recommendations</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/07-03.jpg')?>
 						<p>Lightly sand surface with P400 grit or a red scuff pad</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/07-04.jpg')?>
 						<p>Clean surfaces with RM 900, dry and blow off with an air blower.</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/07-05.jpg')?>
 						<p>Apply fine line tape or masking tape to bed side of the seam as control edge</p>
 					</div>
 				</div>
 			</div>
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/07-06.jpg')?>
 						<p>Apply 123EZ Seam Sealer to the seam</p>
 						<ul>
@@ -89,8 +89,8 @@
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #7</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #7</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/07-07.jpg')?>
 						<p>Remove the masking tape ASAP after sealer application at a slight angle towards the sealer in order to produce a rolled or rounded bead.</p>
 						<p><strong>Additional Tech Data (@70")</strong></p>
@@ -103,8 +103,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/07-info.jpg')?>
 						<div class="qr">
 							<div class="row column tech-support">

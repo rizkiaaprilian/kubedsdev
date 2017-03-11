@@ -29,67 +29,66 @@
 						Safety Glasses
 					</div>
 				</div>
-				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/06-01.jpg')?>
 						<p>Clean surface with RM 900 wax & grease remover, dry and blow off with an air blower.</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/06-02.jpg')?>
 						<p>Prep & prime all bare metal surfaces and allow to dry per <strong>paint companies recommendations</strong></p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/06-03.jpg')?>
 						<p>Lightly sand surface with P400 grit or a red scuff pad</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/06-04.jpg')?>
 						<p>Clean surfaces with RM 900, dry and blow off with an air blower.</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/06-05.jpg')?>
 						<p>Apply fine line tape or masking tape to both sides of the seam</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/06-06.jpg')?>
 						<p>Apply Seam Sealer to the seam and then tool the bead with a spreader in order to produce a flat bead</p>
 					</div>
 				</div>
 			</div>
-			<div class="medium-6 column">
-				
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #7</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #7</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/06-07.jpg')?>
 						<p>Remove the masking tape ASAP after sealer application</p>
 						<p><strong>Additional Tech Data (@70")</strong></p>
@@ -102,8 +101,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/06-info.jpg')?>
 						<div class="qr">
 							<div class="row column tech-support">
@@ -112,7 +111,7 @@
 							</div>
 							<div class="row column">
 								<div class="clearfix tech-support-footer">
-									<div class="float-left">
+									<div class="qr-info">
 										QR Code:<br>
 										<?=\Html::anchor('https://www.youtube.com/watch?v=un9CrzQEU1M', 'Seam Sealing Video', array('target' => '_blank'));?>
 									</div>
@@ -122,11 +121,11 @@
 							</div>
 							<div class="row column">
 								<div class="clearfix tech-support-footer">
-									<div class="float-left">
+									<div class="qr-info">
 										QR Code:<br>
 										<?=\Html::anchor('http://www.lord.com/products-and-solutions/adhesives/automotive-repair-adhesives/product.xml/339/2', 'Controlled Flow Seam Sealer Technical Support', array('target' => '_blank'));?>
 									</div>
-									<?=\Asset::img('body_shop/06-qr-02.jpg', array('class' => 'float-right'));?>
+									<?=\Asset::img('body_shop/06-qr-02.jpg');?>
 								</div>
 							</div>
 						</div>

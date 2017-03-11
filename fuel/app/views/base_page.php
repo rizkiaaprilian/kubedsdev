@@ -17,7 +17,7 @@
 			<?=\Html::anchor('/', \Asset::img('kube-logo.png', array('alt' => 'Kube DS')));?>
 		</header>
 
-		<div id="main_content">
+		<div id="main_content" class="clearfix">
 			<?=$content;?>
 		</div>
 		<footer id="footer" class="row">

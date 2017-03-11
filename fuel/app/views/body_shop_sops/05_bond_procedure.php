@@ -27,17 +27,17 @@
 						Safety Glasses
 					</div>
 				</div>
-				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/05-01.jpg')?>
 						<p>Remove rust, adhesive, e-coatings and galvanized coating from the mating surfaces with a 50 grit disc</p>
 						<p>Note - <strong>Be sure to grind until all coatings (including galvanized coating) have been removed.</strong></p>
@@ -45,35 +45,34 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/05-02.jpg')?>
 						<p>Clean all bonding surfaces with RM 900, dry and blow off with an air blower</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/05-03.jpg')?>
 						<p>Pre-fit the panels to ensure proper fit</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/05-04.jpg')?>
 						<p>Apply a 3/8" bead of HD Sealer to the bare metal surfaces prior to STRSW Weld.</p>
 					</div>
 				</div>
 				
 			</div>
-			<div class="medium-6 column">
-				
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/05-05.jpg')?>
 						<ul>
 							<li>Clamp the panels together</li>
@@ -83,16 +82,16 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/05-06.jpg')?>
 						<p>Welder Set Up - <strong><em>Review all pertinent information about the</em></strong> use of a Squeeze Type Resistant Spot Welder before you begin. Consult the welder manufacturer for the <strong><em>recommended settings for weld bonding</em></strong></p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #7</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #7</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/05-07.jpg')?>
 						<p>Weld through the adhesive</p>
 						<p><strong>Note - You may weld through the sealer at any time while it is still wet or once it has dried</strong></p>
@@ -100,8 +99,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/05-info.jpg')?>
 						<div class="qr">
 							<div class="row column tech-support">

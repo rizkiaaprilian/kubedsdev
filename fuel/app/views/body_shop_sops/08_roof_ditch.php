@@ -28,17 +28,17 @@
 						Safety Glasses
 					</div>
 				</div>
-				<small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/08-01.jpg')?>
 						<p>HIGHLY RECOMMENDED</p>
 						<ul>
@@ -49,51 +49,50 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/08-02.jpg')?>
 						<p>Remove original sealant materials from the roof ditch and sand surface with P180 grit</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/08-03.jpg')?>
 						<p>Clean surfaces with RM 900 wax & grease remover, dry and blow off with an air blower</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/08-04.jpg')?>
 						<p>Prime surface and allow to dry per paint companies recommendation.</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/08-05.jpg')?>
 						<p>Lightly sand surface with P400 grit or a red scuff pad</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/08-06.jpg')?>
 						<p>Blow off surface with an air blower</p>
 					</div>
 				</div>
 				
 			</div>
-			<div class="medium-6 column">
-				
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #7</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #7</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/08-07.jpg')?>
 						<p>Dispense #122EZ Self-Leveling Seam Sealer into roof ditch</p>
 						<p>Application tips available on video for this challenging install</p>
@@ -101,8 +100,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #8</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #8</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/08-08.jpg')?>
 						<p>Allow seam sealer to dry approximately 45 minutes before paint application</p>
 						<p>If Sealer has cured longer than 2 hours, scuff the surface with a red scuff pad before paint application</p>
@@ -110,8 +109,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/08-info.jpg')?>
 						<div class="qr">
 							<div class="row column tech-support">

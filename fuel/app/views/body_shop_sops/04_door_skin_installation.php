@@ -28,17 +28,17 @@
 						Safety Glasses
 					</div>
 				</div>
-				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/04-01.jpg')?>
 						<ul>
 							<li>Remove rust, adhesive, e-coatings and galvanized coating from the flange area with a 50 grit disc</li>
@@ -48,8 +48,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/04-02.jpg')?>
 						<p>Prep the new door skin</p>
 						<ul>
@@ -60,16 +60,16 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/04-03.jpg')?>
 						<p>Clean all bonding surfaces with RM900, dry and blow off with an air blower</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/04-04.jpg')?>
 						<p>Before bonding, pre-fit the panels to ensure proper fit</p>
 						<p>Install sound deadening pads inside of new skin prior to adhering.</p>
@@ -77,19 +77,18 @@
 				</div>
 				
 			</div>
-			<div class="medium-6 column">
-				
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/04-05.jpg')?>
 						<p>Apply a 3/8" bead of Metal Bonding Adhesive to the bare metal surfaces</p>
 					</div>
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/04-06.jpg')?>
 						<ul>
 							<li>Properly position the new door skin</li>
@@ -100,8 +99,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('body_shop/04-info.jpg')?>
 						<div class="qr">
 							<div class="row column tech-support">
@@ -119,9 +118,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="medium-8 column">
-						
-					</div>
+					<div class="medium-8 column"></div>
 				</div>
 				
 			</div>
