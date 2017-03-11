@@ -1,12 +1,12 @@
-<div class="row column">
-	<div class="sop-header row">
+<div class="column">
+	<div class="sop-header">
 		<h3 class="text-center">Sprayable Seam Sealers</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>BASF RM 900</span>- Pre-Cleano</li>
 						<li><span>TORK # 440278A</span>- Wipers</li>
@@ -14,13 +14,13 @@
 						<li><span>Fusor # 312</span>- Spray Gun</li>
 					</ul>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>Fusor # 804HD</span>- Grey Sprayable Seam Sealer</li>
 						<li><span>Fusor # 805HD</span>- Black Sprayable Seam Sealer</li>
 					</ul>
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					<div class="text-center safety">
 						SAFETY<br>
 						Safety Glasses<br>
@@ -28,9 +28,8 @@
 						Disposable Gloves
 					</div>
 				</div>
+				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 			</div>
-			
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	

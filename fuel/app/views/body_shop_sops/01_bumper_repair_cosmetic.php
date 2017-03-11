@@ -3,17 +3,17 @@
 		<h3 class="text-center">Bumper Repair - Cosmetic</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>BASF RM 900</span>- Pre-Cleano</li>
 						<li><span>Tork # 121202</span>- Wipers</li>
 						<li><span>Carbo/Norton</span>- 120 Grit, 6" Discs</li>
 					</ul>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>Carbo/Norton</span>- 180 Grit, 6" Discs</li>
 						<li><span>U-POL # 7061</span>- Stronghold Plastic Filler</li>
@@ -21,7 +21,7 @@
 						<li><span>3M # 05887</span>- EZ Sand Flexible</li>
 					</ul>
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					<div class="text-center safety">
 						SAFETY<br>
 						N95 Dust Masks<br>

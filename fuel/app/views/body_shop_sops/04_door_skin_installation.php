@@ -1,12 +1,12 @@
-<div class="row column">
-	<div class="sop-header row">
+<div class="column">
+	<div class="sop-header">
 		<h3 class="text-center">Door Skin Installation Procedure</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>Norton</span>- 50 grit, 2" discs /3" discs</li>
 						<li><span>Norton/Carbo</span>- Thin Flex Red Scuff pad</li>
@@ -14,13 +14,13 @@
 						<li><span>Tork 121202</span>- Wipers</li>
 					</ul>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>Norton # 06421</span>- Metal Bonding Adhesive (90 min work time)</li>
 						<li><span>Norton # 04628</span>- Mixing tips</li>
 					</ul>
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					<div class="text-center safety">
 						SAFETY<br>
 						P100 or N95 Dust Masks<br>
@@ -28,9 +28,8 @@
 						Safety Glasses
 					</div>
 				</div>
+				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 			</div>
-			
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	

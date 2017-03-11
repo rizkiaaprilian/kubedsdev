@@ -1,12 +1,12 @@
-<div class="row column">
-	<div class="sop-header row">
+<div class="column">
+	<div class="sop-header">
 		<h3 class="text-center">Door Skin Seam Sealing</h3>
 		<div class="body">
 			<div class="row">
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					Products Needed:
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>BASF RM 900</span>- Pre-Cleano</li>
 						<li><span>TORK # 121202</span>- Wipers</li>
@@ -14,14 +14,14 @@
 						<li><span>3M</span>- 1/4" Fine Line Tape Blue</li>
 					</ul>
 				</div>
-				<div class="medium-4 column">
+				<div class="medium-6 large-4 column">
 					<ul class="no-bullet">
 						<li><span>3M # 26334</span>- 3/4 Masking Tape</li>
 						<li><span>Fusor # 123EZ</span>- Standard Flow Seam Sealer</li>
 						<li><span>Fusor # 401</span>- Mixing Tips</li>
 					</ul>
 				</div>
-				<div class="medium-2 column">
+				<div class="medium-12 large-2 column">
 					<div class="text-center safety">
 						SAFETY<br>
 						P100 or N95 Dust Masks<br>
@@ -29,9 +29,8 @@
 						Safety Glasses
 					</div>
 				</div>
+				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 			</div>
-			
-			<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
 		</div>
 	</div>
 	
