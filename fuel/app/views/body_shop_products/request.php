@@ -1,5 +1,4 @@
-<div class="row column">
-	
+<div class="column">
 	<div class="text-center change-request-form">
 		<h3>Product Change Request Form</h3>
 		<div class="form"><?=\Asset::img('change_request_01.jpg')?></div>

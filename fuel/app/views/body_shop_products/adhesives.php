@@ -1,4 +1,4 @@
-<div class="row column">
+<div class="column">
 	<h3>Body Shop</h3>
 	<h3>Approved Product List | Adhesives</h3>
 	<h5>19 SKU's TOTAL</h5>

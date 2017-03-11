@@ -1,4 +1,4 @@
-<div class="row column">
+<div class="column">
 	<h3>Body Shop</h3>
 	<h3>Approved Product List | Aerosols</h3>
 	<h5>8 SKU's TOTAL</h5>
