@@ -1,4 +1,4 @@
-<div class="row column">
+<div class="column">
 	<h3>Detail Shop</h3>
 	<h3>Approved Product List</h3>
 	<h5>13 SKU's TOTAL</h5>

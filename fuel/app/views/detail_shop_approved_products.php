@@ -14,7 +14,7 @@
 		<li><?=\Html::anchor('', 'Product Request Form', array('id' => 'request'));?></li>
 	</ol>
 </div>
-<div class="row column approved-products" id="content">
+<div id="content" class="row approved-products">
 
 </div>
 <script>
