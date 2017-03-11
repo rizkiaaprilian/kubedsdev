@@ -8,10 +8,7 @@
 		<?=\Html::anchor('/detail-shop/products', 'Approved Products', array('class' => 'button warning'));?>
 	</div>
 </div>
-<div class="row column">
-	
-</div>
-<div class="row column" id="content">
+<div class="row" id="content">
 
 </div>
 <script>
