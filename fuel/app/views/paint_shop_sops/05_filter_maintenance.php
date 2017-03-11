@@ -30,8 +30,8 @@
 	
 	<div class="sop-body">
 		<div class="row step info">
-			<div class="medium-2 column">Info</div>
-			<div class="medium-10 column border">
+			<div class="large-2 column">Info</div>
+			<div class="large-10 column border">
 				<?=\Asset::img('paint_shop/05-info.jpg')?>
 				<div class="qr">
 					<div class="row column tech-support">

@@ -250,7 +250,7 @@ div .with-arrow .button.products {
 .sata-3-stage-filter-maintenance-step span{
     font-size: 1.1rem
 }
-.sata-3-stage-filter-maintenance .info{
+.sata-3-stage-filter-maintenance .sop-body .info{
     width: 50%;
     margin: 0.625rem auto
 }
@@ -276,6 +276,9 @@ div .with-arrow .button.products {
     display: block;
     float: right
 }
+.no-step{
+    margin-left: 0.9375rem
+}
 /* Small only */
 @media screen and (max-width: 39.9375em) {
     .oem-description .page{
@@ -297,6 +300,12 @@ div .with-arrow .button.products {
     .sop-body .step{
         margin-right: -0.625rem
     }
+    .no-step{
+        margin-left: 0
+    }
+    .sata-3-stage-filter-maintenance .sop-body .info{
+        width: 100%
+    }
 }
 
 /* Medium and up */
@@ -306,6 +315,12 @@ div .with-arrow .button.products {
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     .sop-body .step{
         margin-right: -0.9375rem
+    }
+    .no-step{
+        margin-left: 0
+    }
+    .sata-3-stage-filter-maintenance .sop-body .info{
+        width: 50%
     }
 }
 

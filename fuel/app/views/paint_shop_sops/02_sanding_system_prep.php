@@ -39,10 +39,10 @@
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/02-01.jpg')?>
 						<p>Body work comes to the prep department finished in 180 Grit DA sand scratches</p>
 						<p>Prep department never jumps more than 100 grit / step</p>
@@ -50,8 +50,8 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/02-02.jpg')?>
 						<p>Prepper's sand with 3/32 offset and a soft pad.</p>
 						<p>Sand around the filler areas (stay off filler) with 240 grit to remove 180 grit scratches on metal and feathered paint</p>
@@ -59,48 +59,44 @@
 				</div>
 				
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/02-03.jpg')?>
 						<p>Sand around the filler areas (stay off filler) with 320 grit to remove 240 grit scratches on metal and feathered paint</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/02-04.jpg')?>
 						<p>Prime as per BASF recommended procedures</p>
 						<p>Caution: Do not Prime beyond 320 Grit Scratches</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/02-05.jpg')?>
 						<p>ON THE PRIMED AREAS</p>
 						<p>Block sand - starting with 320 grit follow with 400 grit</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/02-06.jpg')?>
 						<p>Sand with 400 grit on a DA with a soft pad - the total area to be painted</p>
 						<p>Surface must be fully sanded, no shiny spots, no orange peel.</p>
 					</div>
 				</div>
 			</div>
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="column">
-						<div class="additional">
-							OEM / Non-OEM Panels / All types of Bumpers
-						</div>
-					</div>
+					<div class="additional">OEM / Non-OEM Panels / All types of Bumpers</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #7</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #7</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/02-07.jpg')?>
 						<p><u>NEW - OEM Panels</u></p>
 						<p>Finish sand with 400 Grit 6" DA, soft pad, 3/32 Offset Sander Option to use 600 grit if primer is thin</p>
@@ -108,8 +104,8 @@
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #9</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #9</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/02-09.jpg')?>
 						<p><strong><u>Unprimed or Raw OEM and Aftermarket Bumpers</u></strong></p>
 						<p>Pre wash with hot soapy water and rinse thoroughly.</p>
@@ -117,8 +113,8 @@
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/02-info.jpg')?>
 						<p>General Rule of sanding steps:</p>
 						<ul>

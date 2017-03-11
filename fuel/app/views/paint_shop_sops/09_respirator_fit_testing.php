@@ -24,26 +24,25 @@
 						<li><span>SAS # 9401-05</span>- Nebulizer with labels</li>
 					</ul>
 				</div>
-
+				<div class="column text-right"><small>Respirator Fit Tests Should Be Conducted Annually.</small></div>
 			</div>
-			<small>Respirator Fit Tests Should Be Conducted Annually.</small>
 		</div>
 	</div>
 
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/09-01.jpg')?>
 						<p>Go to OSHA's website to review medical evaluation questionnaire and medical evaluation requirements</p>
 						<p>See QR code in lower right hand corner</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/09-02.jpg')?>
 						<p>Check fit of respirator before conducting fit test</p>
 						<ul>
@@ -53,25 +52,24 @@
 				</div>
 
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/09-03.jpg')?>
 						<p><strong>Sensitivity Test</strong> - Check to make sure that the person being tested can detect the Bitrex solution by using the sensitivity solution # 9401-03 with nebulizer #1 while not wearing the respirator under the fit test hood</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/09-04.jpg')?>
 						<p>Don the Respirator - Have the person being tested don their respirator and then put fit test hood on the person being tested</p>
 					</div>
 				</div>
 			</div>
-			<div class="medium-6 column">
-
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/09-05.jpg')?>
 						<p>Fit Test - Using the Bitrex solution # 9401-04 with nebulizer #2, check to see if the person being tested can detect the Bitrex solution while wearing the respirator under the fit test hood</p>
 						<p><strong>Follow instructions on <?=\Html::anchor('paint-shop/test', 'Fit Test Form')?></strong></p>
@@ -79,8 +77,8 @@
 				</div>
 
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/09-info.jpg', array('class' => 'info'))?>
 						<div class="qr">
 							<div class="row column tech-support">

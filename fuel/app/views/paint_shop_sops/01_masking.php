@@ -30,17 +30,17 @@
 						Disposable Gloves
 					</div>
 				</div>
-				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/01-01.jpg');?>
 						<p>Clean area with RM 900 cleaner & dry before masking</p>
 						<p>Blow out door jambs prior to  applying foam tape</p>
@@ -48,16 +48,16 @@
 				</div>
 
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/01-02.jpg');?>
 						<p>Apply foam tape to door jambs and any other gaps that need protection</p>
 					</div>
 				</div>
 
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/01-03.jpg');?>
 						<ul>
 							<li>Outline repair area with 3/4" masking tape</li>
@@ -67,17 +67,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/01-04.jpg');?>
 						<p>Mask all adjacent areas with Paint Check masking paper</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/01-05.jpg');?>
 						<p>Cover entire vehicle with overspray sheeting</p>
 						<p>Note - Make sure that the car is dry before applying sheeting... DO NOT allow plastic to touch the floor!</p>
@@ -89,16 +89,16 @@
 				</div>
 
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/01-06.jpg');?>
 						<p>Blow off area and tack</p>
 					</div>
 				</div>
 
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/01-info.jpg');?>
 						<div class="qr">
 							<div class="row column tech-support">

@@ -22,82 +22,82 @@
 						Disposable Gloves
 					</div>
 				</div>
-				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/07-01.jpg')?>
 						<p>Insert the fluid tip into the gun body</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/07-02.jpg')?>
 						<p>Use a SATA gun wrench to hand-tighten the fluid tip</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/07-03.jpg')?>
 						<p>Attach the air cap</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/07-04.jpg')?>
 						<p>Grease paint needle around the needle packing area</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/07-05.jpg')?>
 						<p>Insert the needle</p>
 					</div>
 				</div>
 			</div>
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/07-06.jpg')?>
 						<p>Grease and insert the paint needle spring</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #7</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #7</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/07-07.jpg')?>
 						<p>Grease thread of material flow screw</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #8</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #8</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/07-08.jpg')?>
 						<p>Insert material flow screw</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #9</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #9</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/07-09.jpg')?>
 						<p>Grease visible part of air piston rod</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/07-info.jpg', array('class' => 'info'))?>
 						<div class="qr">
 							<div class="row column tech-support">

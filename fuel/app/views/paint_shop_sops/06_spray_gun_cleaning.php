@@ -28,99 +28,99 @@
 						Disposable Gloves
 					</div>
 				</div>
-				<small class="float-right">Refer to the Manufacturer's MSDS for recommended safety equipment.</small>
+				<div class="column text-right"><small>Refer to the Manufacturer's MSDS for recommended safety equipment.</small></div>
 			</div>
 		</div>
 	</div>
 	
 	<div class="sop-body">
 		<div class="row">
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<h4>Disassembly of Nozzle Set</h4>
 				<div class="row step">
-					<div class="medium-2 column">Step #1</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #1</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-01.jpg')?>
 						<p>Remove the paint needle.</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #2</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #2</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-02.jpg')?>
 						<p>Remove the air cap.</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #3</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #3</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-03.jpg')?>
 						<p>Unscrew fluid tip with a SATA gun wrench</p>
 					</div>
 				</div>
 				<h4>Cleaning and Drying</h4>
 				<div class="row step">
-					<div class="medium-2 column">Step #4</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #4</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-04.jpg')?>
 						<p>Rinse / clean the material passage</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #5</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #5</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-05.jpg')?>
 						<p>Rinse / clean the gun body</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #6</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #6</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-06.jpg')?>
 						<p>Dry air passages and exterior of gun with an air blower</p>
 					</div>
 				</div>
 			</div>
-			<div class="medium-6 column">
+			<div class="large-6 column">
 				<h4>Cleaning of the Nozzle Set</h4>
 				<div class="row step">
-					<div class="medium-2 column">Step #7</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #7</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-07.jpg')?>
 						<p>Rinse / clean the air cap</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #8</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #8</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-08.jpg')?>
 						<p>Use a cleaning brush to clean out the air cap</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #9</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #9</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-09.jpg')?>
 						<p>Use a nozzle cleaning needle to clean out the smaller holes of the air cap</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #10</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #10</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-10.jpg')?>
 						<p>Use cleaning brushes to clean the fluid tip</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Step #11</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Step #11</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-11.jpg')?>
 						<p>Rinse / clean the needle</p>
 					</div>
 				</div>
 				<div class="row step">
-					<div class="medium-2 column">Info</div>
-					<div class="medium-10 column border">
+					<div class="large-2 column">Info</div>
+					<div class="large-10 column border">
 						<?=\Asset::img('paint_shop/06-info.jpg', array('class' => 'info'))?>
 						<div class="qr">
 							<div class="row column tech-support">
