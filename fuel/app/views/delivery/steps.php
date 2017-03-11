@@ -1,4 +1,4 @@
-<div class="row column">
+<div class="column">
 	<h3>Delivery Steps</h3>
 	<ol class="delivery-steps">
 		<li>
